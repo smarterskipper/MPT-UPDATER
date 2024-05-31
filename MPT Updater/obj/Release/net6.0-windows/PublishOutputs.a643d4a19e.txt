@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\MPT Updater.exe
+C:\Users\Admin\Desktop\MPT Updater.dll
+C:\Users\Admin\Desktop\MPT Updater.deps.json
+C:\Users\Admin\Desktop\MPT Updater.runtimeconfig.json
+C:\Users\Admin\Desktop\MPT Updater.pdb
+C:\Users\Admin\Desktop\LibGit2Sharp.dll
+C:\Users\Admin\Desktop\runtimes\linux-arm\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\linux-arm64\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\linux-musl-arm\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\linux-musl-arm64\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\linux-musl-x64\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\linux-x64\native\libgit2-a418d9d.so
+C:\Users\Admin\Desktop\runtimes\osx-arm64\native\libgit2-a418d9d.dylib
+C:\Users\Admin\Desktop\runtimes\osx-x64\native\libgit2-a418d9d.dylib
+C:\Users\Admin\Desktop\runtimes\win-arm64\native\git2-a418d9d.dll
+C:\Users\Admin\Desktop\runtimes\win-x64\native\git2-a418d9d.dll
+C:\Users\Admin\Desktop\runtimes\win-x86\native\git2-a418d9d.dll

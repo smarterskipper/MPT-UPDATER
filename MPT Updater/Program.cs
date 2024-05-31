@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using LibGit2Sharp;
 using System.Windows.Forms;
 using System.IO;
@@ -64,7 +64,6 @@ namespace MPTUpdater
 
         public static void DeleteDirs(string path)
         {
-
             Directory.Delete(path, true);
         }
 

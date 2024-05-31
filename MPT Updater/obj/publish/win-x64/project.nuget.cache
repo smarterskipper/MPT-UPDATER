@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ER+CrzHUsrFr2aThCVvdSaqkBdB7ZEv9arw77pn8QIhTUZoVgosN/3sHTdn7tq2uyTBXNkkMhfQ/9/tm4cgDrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\MPT Updater\\MPT Updater\\MPT Updater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\libgit2sharp\\0.30.0\\libgit2sharp.0.30.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.322\\libgit2sharp.nativebinaries.2.0.322.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.27\\microsoft.netcore.app.runtime.win-x64.6.0.27.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.27\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.27.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.27\\microsoft.aspnetcore.app.runtime.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
