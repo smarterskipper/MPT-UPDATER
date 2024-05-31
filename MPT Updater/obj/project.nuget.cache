@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gYKteP3UQWH1LEbdZ+YoxbLbw+3NqA7AJ7uVRHVrQS0PntxfN9iKkmtSY0lpZ85uZeXwtKWuczC2HpHkE5NcVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\MPT Updater\\MPT Updater\\MPT Updater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\libgit2sharp\\0.30.0\\libgit2sharp.0.30.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.322\\libgit2sharp.nativebinaries.2.0.322.nupkg.sha512"
+  ],
+  "logs": []
+}
