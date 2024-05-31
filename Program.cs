@@ -1,59 +1,46 @@
 using System;
-using System.IO;
-namespace mptUpdate;
-
-class Program
+using LibGit2Sharp;
+namespace MPTUpdater
 {
 
-    static void Main(string[] args)
+    
+    
+    class Program
     {
-        var driveIncrom = 0;
-        var driveSelect = "null";
-        DriveInfo[] allDrives = DriveInfo.GetDrives();
-
-        Console.WriteLine("Welcome to MPT Updater!");
-        Console.WriteLine("Press Enter to Continue...");
-        Console.Read();
-
-        Console.Clear();
-
-        Console.WriteLine("Do you have the Official Tarkov Installed and Updated?");
-        Console.WriteLine("Y for Yes, N for No");
-        var answer = Console.ReadLine();
-
-        if (answer == "Y")
+        public static void Main(string[] args)
         {
-            Console.Clear();
-            Console.WriteLine("What Drive would you like to install MPT on?");
-            foreach (DriveInfo d in allDrives)
+            
+            Console.WriteLine("Welcome to the MPTUpdater...");
+            Console.WriteLine("1.Configure GitHub REPO/ Install Github REPO\n");
+
+
+            var userInput = "0"; // variable for user input
+            userInput = Console.ReadLine(); // gather user input and store in variable
+
+
+            switch (userInput) // flow after selection is made.
             {
-                Console.WriteLine($"{driveIncrom}");
-                Console.WriteLine("Drive {0}", d.Name);
-                if (d.IsReady == true)
-                {
-                    driveIncrom++;
+                case "1":
+                    Console.Clear();
+                    Console.WriteLine("Configure/Extract Selected......");
+                    Thread.Sleep(3000);
+                    Console.Clear();
+                    Console.WriteLine("Input Github Repo Link Below......");
+                    string repourl = Console.ReadLine();
+                    string pathto = @"C:\test";
                     
-                    Console.WriteLine("Total available space:{0, 15} bytes", d.TotalFreeSpace);
-                    Console.WriteLine("\b");
-                }
+                    DownloadGitHubRepo(repourl, pathto);
+                    break;
+
+                
             }
-            driveSelect = Console.ReadLine();
-
-            
-
-            
         }
-        else
+
+        public static void DownloadGitHubRepo(string url, string path) // download github repo and extract it to directory.
         {
-            Console.Clear();
-            Console.WriteLine($"You entered {answer}");
-            Console.WriteLine("You must have tarkov installed and updated to use this program....");
-            Console.Read();
+            
+            Repository.Clone(url, path);
+
         }
-
-   
-
-
-
     }
 }
