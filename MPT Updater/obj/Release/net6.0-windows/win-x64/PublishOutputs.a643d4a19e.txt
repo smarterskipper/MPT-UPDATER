@@ -1,8 +1,2 @@
 C:\Users\Admin\Desktop\MPT Updater.pdb
-C:\Users\Admin\Desktop\D3DCompiler_47_cor3.dll
-C:\Users\Admin\Desktop\PenImc_cor3.dll
-C:\Users\Admin\Desktop\PresentationNative_cor3.dll
-C:\Users\Admin\Desktop\vcruntime140_cor3.dll
-C:\Users\Admin\Desktop\wpfgfx_cor3.dll
-C:\Users\Admin\Desktop\git2-a418d9d.dll
 C:\Users\Admin\Desktop\MPT Updater.exe
