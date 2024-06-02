@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[0.30.0, )"
             },
+            "MegaApiClient": {
+              "target": "Package",
+              "version": "[1.10.4, )"
+            },
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,10 +1,12 @@
-using System;
+﻿using System;
 using System.IO;
+using System.Net;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Security.Permissions;
 using LibGit2Sharp;
 using ShellProgressBar;
+using CG.Web.MegaApiClient;
 using System.ComponentModel;
 
 namespace MPTUpdater
@@ -12,7 +14,7 @@ namespace MPTUpdater
     class Program
     {
 
-        public const int totalTicks = 20;
+        public const int totalTicks = 28;
 
 
         
@@ -43,6 +45,8 @@ namespace MPTUpdater
 
             string githubURL = "null";
             string answer;
+            string megaURL = "null";
+             
 
 
 
@@ -56,10 +60,19 @@ namespace MPTUpdater
                 Console.Clear();
 
                 Console.WriteLine("\r\n███    ███ ██████  ████████               ██    ██ ██████  ██████   █████  ████████ ███████ ██████  \r\n████  ████ ██   ██    ██                  ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ \r\n██ ████ ██ ██████     ██        █████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  \r\n██  ██  ██ ██         ██                  ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ \r\n██      ██ ██         ██                   ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ \r\n                                                                                                    \r\n                                                                                                    \r\n");
-                Console.WriteLine($"\nCurrent GitHub URL: {githubURL}");
+                if (githubURL != "null")
+                {
+                    Console.WriteLine($"\nCurrent Source URL: {githubURL}");
+                }
+                if (megaURL != "null")
+                {
+                    Console.WriteLine($"\nCurrent Source URL: {megaURL}");
+                }
+
+                
                 int userInput = 0;
                 Console.ForegroundColor = ConsoleColor.Red; Console.WriteLine("\nMake Sure This EXE Is In Your Mods Folder!\n"); Console.ForegroundColor = ConsoleColor.Red;
-                Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Configure GitHub Repo URL\n\n2.Update MPT Client\n"); Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Configure Source URL (files to be downloaded)\n\n2.Update MPT Client\n"); Console.ForegroundColor = ConsoleColor.Red;
 
                 // error handling for userinput
                 try
@@ -76,7 +89,7 @@ namespace MPTUpdater
                 {
                     case 1:
                         //Get github link from user
-                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Enter GitHub Repo Link\n2.Use Skippers Server Preset.\n\n\n"); Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Enter GitHub Repo Link\n2.Enter Mega.nz Drive Link\n3.Use Skippers Server Preset.\n\n\n"); Console.ForegroundColor = ConsoleColor.Red;
                         int userInput2 = 0;
                         try
                         {
@@ -91,33 +104,75 @@ namespace MPTUpdater
                         {
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.Clear();
-                            Console.WriteLine("Enter URL:");
+                            Console.WriteLine("Enter GitHub URL:");
                             githubURL = Console.ReadLine();
                             Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nNew URL Set As - {githubURL}"); Thread.Sleep(1000); Console.ForegroundColor = ConsoleColor.Red;
                         }
                         if (userInput2 == 2)
+                        {
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Clear();
+                            Console.WriteLine("Enter mega Drive URL:");
+                            megaURL = Console.ReadLine();
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nNew URL Set As - {megaURL}"); Thread.Sleep(1000); Console.ForegroundColor = ConsoleColor.Red;
+                        }
+                        if (userInput == 2)
                         {
                             Console.ForegroundColor = ConsoleColor.White;
                             githubURL = @"https://github.com/smarterskipper/MPT-Skipper";
                             Console.ForegroundColor = ConsoleColor.Red;
                         }
-                        
-                        //Display url for doublechecking
-                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nNew URL Set As - {githubURL}"); Thread.Sleep(1500); Console.ForegroundColor = ConsoleColor.Red;
                         break;
 
 
                     case 2:
+
+                        
+                        //temp save path for copies repo
+                        string savePath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
                         //Update the directories
-                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nCurrent GitHub URL Is {githubURL}"); Console.WriteLine("\n\nIs this Correct? Y / N"); Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nCurrent GitHub URL Is {githubURL}\nCurrent Mega.nz Drive URL Is {megaURL}"); Console.WriteLine("\n\nIs this Correct? Y / N"); Console.ForegroundColor = ConsoleColor.Red;
 
                         //Variable to store userinput
                         answer = Console.ReadLine(); answer = answer.ToLower();
+                        int sourceAnswer = 0;
+                        string sourceURL = "null";
                         
 
                         //Answer check
                         if (answer == "y" || answer == "yes")
                         {
+                            Console.Clear();
+                            Console.WriteLine($"Which Source Are We Using Today? \n1.Github {githubURL} \n2.Mega.nz {megaURL}");
+                            try
+                            {
+                                sourceAnswer = Int32.Parse(Console.ReadLine());
+                                
+                            }
+                            catch (FormatException)
+                            {
+                                Console.WriteLine($"Unable to parse '{sourceAnswer}'"); Console.ReadLine();
+                            }
+                            switch (sourceAnswer)
+                            {
+                                case 1:
+                                    if (sourceAnswer == 1)
+                                    {
+
+                                        sourceURL = githubURL;
+                                    }
+                                    break;
+                                case 2:
+                                    if (sourceAnswer == 2)
+                                    {
+                                        sourceURL = megaURL;
+                                    }
+
+                                    break;
+                            }
+
                             Console.Clear();
                             Console.WriteLine("\r\n███    ███ ██████  ████████               ██    ██ ██████  ██████   █████  ████████ ███████ ██████  \r\n████  ████ ██   ██    ██                  ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ \r\n██ ████ ██ ██████     ██        █████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  \r\n██  ██  ██ ██         ██                  ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ \r\n██      ██ ██         ██                   ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ \r\n                                                                                                    \r\n                                                                                                    \r\n");
                             Console.WriteLine("Starting Up...");
@@ -128,15 +183,53 @@ namespace MPTUpdater
                             pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
                             Console.ForegroundColor = ConsoleColor.White;
                             pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
-                            Console.WriteLine($"Deleting Mods/Plugins/Configs...\n");
+                            Console.WriteLine($"Deleting Mods/Plugins/Configs...");
                             Thread.Sleep(1000);
                             //Send for DelDIR
                             DelRepo(currentWorkingDirectory);
                             pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
                             //Send for RepoDL
-                            Console.WriteLine($"Downloading Mods/Plugins/Configs...\n");
+                            Console.WriteLine($"Downloading Mods/Plugins/Configs...");
                             Thread.Sleep(1000);
-                            RepoDL(githubURL, currentWorkingDirectory);
+                            if(sourceAnswer == 1)
+                            {
+                                try
+                                {
+                                    RepoDL(sourceURL, currentWorkingDirectory);
+                                    Console.WriteLine("Download-Completed!");
+                                    Thread.Sleep(1000);
+                                }
+                                catch (Exception j)
+                                {
+                                    Console.Clear();
+                                    Console.WriteLine("An Error Has Occured For GitHub Download Function...");
+                                    Console.WriteLine(j.Message);
+                                    Console.Read();
+                                    break;
+                                }
+                                pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
+                            }
+                            if(sourceAnswer == 2)
+                            {
+                                try
+                                {
+
+                                    MegaDL(sourceURL, savePath);
+                                    Console.WriteLine("Download-Completed!");
+                                    Thread.Sleep(1000);
+                                }
+                                catch (Exception e)
+                                {
+                                    Console.Clear();
+                                    Console.WriteLine("An Error Has Occured For Mega.nz Download Function...");
+                                    Console.WriteLine(e.Message);
+                                    Console.Read();
+                                    break;
+                                }
+                                CopyDirectory(savePath, rootPath);
+                                pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
+                            }
+                            
                             pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
                             //Send for CleanUp
                             Console.WriteLine($"Cleaning Up...\n");
@@ -154,6 +247,36 @@ namespace MPTUpdater
                         break;
                 }
             }
+        }
+        static string GetParents(INode node, IEnumerable<INode> nodes)
+        {
+            List<string> parents = new List<string>();
+            while (node.ParentId != null)
+            {
+                INode parentNode = nodes.Single(x => x.Id == node.ParentId);
+                parents.Insert(0, parentNode.Name);
+                node = parentNode;
+            }
+
+            return string.Join('\\', parents);
+        }
+
+        public static void MegaDL(string url, string path)
+        {
+            MegaApiClient client = new MegaApiClient();
+            client.LoginAnonymous();
+
+            Uri folderLink = new Uri(url);
+            IEnumerable<INode> nodes = client.GetNodesFromLink(folderLink);
+            foreach (INode node in nodes.Where(x => x.Type == NodeType.File))
+            {
+                string parents = GetParents(node, nodes);
+                Directory.CreateDirectory(parents);
+                Console.WriteLine($"Downloading {parents}\\{node.Name}");
+                client.DownloadFile(node, Path.Combine(parents, node.Name));
+            }
+
+            client.Logout();
         }
 
 
@@ -302,8 +425,7 @@ namespace MPTUpdater
             string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
             //temp save path for copies repo
             string savePath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
-            //path to git folder
-            string gitPath = Path.GetFullPath(Path.Combine(rootPath, @".git\"));
+            
 
             Console.ForegroundColor = ConsoleColor.White;
 
@@ -330,8 +452,5 @@ namespace MPTUpdater
                 File.Copy(newPath, newPath.Replace(sourcePath, targetPath), true);
             }
         }
-        
-
-
     }
 }
