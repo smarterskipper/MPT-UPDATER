@@ -22,30 +22,16 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
 ## Getting Started
 
 ### Installation
+- Drag MPT-Updater.exe into your user>mods Folder.
+### Mods/Configs/Plugins Setup Online.
+- Via Github, create a new blank Repo
+- Upload Your Files with MPT File Structure.
+  1.upload your user folder with only the mods folder within it.
+  2.uploda your BepInEx folder with the config and plugins folder within it.
+  3.Make sure capitalization on the folder names are the exact same as in your mpt local folder on your computer.
+  4.Now when using the MPT.Updater.exe you can input your github link into the url section
+  5.Your repo should look exaactly like this https://github.com/smarterskipper/MPT-Skipper
 
-1. Clone the repository:
-
-    ```sh
-    git clone https://github.com/yourusername/MPTUpdater.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```sh
-    cd MPTUpdater
-    ```
-
-3. Restore the dependencies:
-
-    ```sh
-    dotnet restore
-    ```
-
-4. Build the project:
-
-    ```sh
-    dotnet build
-    ```
 
 ### Running the Application
 
