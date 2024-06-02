@@ -47,11 +47,7 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
 
 1. Ensure the executable is placed in the Mods folder of your MPT client.
 
-2. Run the application:
-
-    ```sh
-    dotnet run
-    ```
+2. Run the application
 
 3. Follow the on-screen instructions to configure the GitHub repository URL or use a preset.
 
