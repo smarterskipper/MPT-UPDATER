@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Security.AccessControl;
 using System.Security.Principal;
@@ -56,6 +56,7 @@ namespace MPTUpdater
                 Console.Clear();
 
                 Console.WriteLine("\r\n███    ███ ██████  ████████               ██    ██ ██████  ██████   █████  ████████ ███████ ██████  \r\n████  ████ ██   ██    ██                  ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ \r\n██ ████ ██ ██████     ██        █████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  \r\n██  ██  ██ ██         ██                  ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ \r\n██      ██ ██         ██                   ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ \r\n                                                                                                    \r\n                                                                                                    \r\n");
+                Console.WriteLine($"\nCurrent GitHub URL: {githubURL}");
                 int userInput = 0;
                 Console.ForegroundColor = ConsoleColor.Red; Console.WriteLine("\nMake Sure This EXE Is In Your Mods Folder!\n"); Console.ForegroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Configure GitHub Repo URL\n\n2.Update MPT Client\n"); Console.ForegroundColor = ConsoleColor.Red;
@@ -75,11 +76,32 @@ namespace MPTUpdater
                 {
                     case 1:
                         //Get github link from user
-                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\nEnter GitHub Repo Link\n\n\n"); Console.ForegroundColor = ConsoleColor.Red;
-
-                        //Variable to store github url
-                        githubURL = Console.ReadLine();
-
+                        Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Enter GitHub Repo Link\n2.Use Skippers Server Preset.\n\n\n"); Console.ForegroundColor = ConsoleColor.Red;
+                        int userInput2 = 0;
+                        try
+                        {
+                            userInput2 = Int32.Parse(Console.ReadLine());
+                        }
+                        catch (FormatException)
+                        {
+                            Console.WriteLine($"Unable to parse '{userInput}'"); Console.ReadLine();
+                        }
+                        
+                        if (userInput2 == 1)
+                        {
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Clear();
+                            Console.WriteLine("Enter URL:");
+                            githubURL = Console.ReadLine();
+                            Console.ForegroundColor = ConsoleColor.Red;
+                        }
+                        if (userInput2 == 2)
+                        {
+                            Console.ForegroundColor = ConsoleColor.White;
+                            githubURL = @"https://github.com/smarterskipper/MPT-Skipper";
+                            Console.ForegroundColor = ConsoleColor.Red;
+                        }
+                        
                         //Display url for doublechecking
                         Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine($"\nNew URL Set As - {githubURL}"); Thread.Sleep(1500); Console.ForegroundColor = ConsoleColor.Red;
                         break;
