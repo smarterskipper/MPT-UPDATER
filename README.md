@@ -1,4 +1,4 @@
-# MPTUpdater
+# MPT Updater
 
 MPTUpdater is a console application designed to update the Mods, Plugins, and Configurations of the MPT client from a specified GitHub repository. It automates the process of cloning the repository, deleting old files, and copying the new ones into place.
 
