@@ -17,8 +17,12 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
 
 ## Getting Started
 
+### Giude on setting up github repo to work with your server 
+- https://github.com/lukas-gust/mpt-updater-template/tree/main
+  
 ### Installation
 - Drag MPT-Updater.exe into your user>mods Folder.
+
 ### Mods/Configs/Plugins Setup Online.
 - Via Github, create a new blank Repo
 - Upload Your Files with MPT File Structure.
@@ -27,7 +31,6 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
 - Make sure capitalization on the folder names are the exact same as in your mpt local folder on your computer.
 - Now when using the MPT.Updater.exe you can input your github link into the url section
 - Your repo should look exaactly like this https://github.com/smarterskipper/MPT-Skipper
-- Check out how to setup a gitnore with your fika server directory here https://github.com/lukas-gust/mpt-updater-template/tree/main
 
 
 ### Running the Application
