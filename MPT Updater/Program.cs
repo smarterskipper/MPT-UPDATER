@@ -15,10 +15,10 @@ namespace MPTUpdater
     class Program
     {
 
-        
 
 
-        
+
+
         public static void Main()
         {
             const int totalTicks = 30;
@@ -30,7 +30,7 @@ namespace MPTUpdater
                 DisplayTimeInRealTime = true,
                 CollapseWhenFinished = true,
             };
-            
+
 
             //Variable declariation.
             string currentWorkingDirectory = Directory.GetCurrentDirectory();
@@ -44,7 +44,7 @@ namespace MPTUpdater
             //Path To TempRepo Folder From Dynmaic Root Path
             string tempDir = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
 
-            
+
             string answer;
             int userInput2 = 0;
             int userInput = 0;
@@ -58,7 +58,7 @@ namespace MPTUpdater
             //Main Slection loop
             while (true)
             {
-                
+
                 Console.Clear();
 
                 Console.WriteLine("\r\n███    ███ ██████  ████████               ██    ██ ██████  ██████   █████  ████████ ███████ ██████  \r\n████  ████ ██   ██    ██                  ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ \r\n██ ████ ██ ██████     ██        █████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  \r\n██  ██  ██ ██         ██                  ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ \r\n██      ██ ██         ██                   ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ \r\n                                                                                                    \r\n                                                                                                    \r\n");
@@ -66,8 +66,8 @@ namespace MPTUpdater
                 {
                     Console.WriteLine($"\nCurrent Source URL: {sourceURL}");
                 }
-                
-                
+
+
                 Console.ForegroundColor = ConsoleColor.Red; Console.WriteLine("\nMake Sure This EXE Is In Your Mods Folder!\n"); Console.ForegroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Configure Source URL (files to be downloaded)\n\n2.Update MPT Client\n"); Console.ForegroundColor = ConsoleColor.Red;
 
@@ -87,7 +87,7 @@ namespace MPTUpdater
                     case 1:
                         //Get github link from user
                         Console.Clear(); Console.ForegroundColor = ConsoleColor.White; Console.WriteLine("\n1.Enter GitHub Repo Link-(DL time almost instant)\n2.Use Skippers Server Preset.\n\n\n"); Console.ForegroundColor = ConsoleColor.Red;
-                        
+
                         try
                         {
                             userInput2 = Int32.Parse(Console.ReadLine());
@@ -96,7 +96,7 @@ namespace MPTUpdater
                         {
                             Console.WriteLine($"Unable to parse '{userInput}'"); Console.ReadLine();
                         }
-                        
+
                         if (userInput2 == 1)
                         {
                             Console.ForegroundColor = ConsoleColor.White;
@@ -117,7 +117,7 @@ namespace MPTUpdater
 
                     case 2:
 
-                        
+
                         //temp save path for copies repo
                         string savePath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
                         //Update the directories
@@ -125,34 +125,35 @@ namespace MPTUpdater
 
                         //Variable to store userinput
                         answer = Console.ReadLine(); answer = answer.ToLower();
-                        
-                        
-                        
+
+
+
 
                         //Answer check
                         if (answer == "y" || answer == "yes")
                         {
-                            
-                            
+
+
                             Console.Clear();
                             Console.WriteLine("\r\n███    ███ ██████  ████████               ██    ██ ██████  ██████   █████  ████████ ███████ ██████  \r\n████  ████ ██   ██    ██                  ██    ██ ██   ██ ██   ██ ██   ██    ██    ██      ██   ██ \r\n██ ████ ██ ██████     ██        █████     ██    ██ ██████  ██   ██ ███████    ██    █████   ██████  \r\n██  ██  ██ ██         ██                  ██    ██ ██      ██   ██ ██   ██    ██    ██      ██   ██ \r\n██      ██ ██         ██                   ██████  ██      ██████  ██   ██    ██    ███████ ██   ██ \r\n                                                                                                    \r\n                                                                                                    \r\n");
                             using var pbar = new ProgressBar(totalTicks, "Update In Progress, Dont Close This Window!\n", options);
-                            
-                            pbar.Tick(); 
+
+                            pbar.Tick();
                             Console.WriteLine($"\n\n\bDeleting Mods/Plugins/Configs...");
-                            
+                            Thread.Sleep(600);
                             //Send for DelDIR
                             DelRepo(currentWorkingDirectory);
                             pbar.Tick();
                             //Send for RepoDL
                             Console.WriteLine($"\n\n\bDownloading Mods/Plugins/Configs...");
-                            
-                            if(userInput2 == 1)
+                            Thread.Sleep(600);
+
+                            if (userInput2 == 1)
                             {
                                 try
                                 {
                                     RepoDL(sourceURL, currentWorkingDirectory);
-                                    
+
                                     Thread.Sleep(1000);
                                 }
                                 catch (Exception j)
@@ -163,7 +164,7 @@ namespace MPTUpdater
                                     Console.Read();
                                     break;
                                 }
-                                pbar.Tick(); 
+                                pbar.Tick();
                             }
                             if (userInput2 == 2)
                             {
@@ -186,11 +187,12 @@ namespace MPTUpdater
                             pbar.Tick();
                             //Send for CleanUp
                             Console.WriteLine($"\n\n\bCleaning Up...");
-                            
+
                             CleanUP(currentWorkingDirectory);
-                            pbar.Tick(); 
+                            pbar.Tick();
                             Console.WriteLine($"\n\n\bUpdate Complete!");
-                            
+                            Thread.Sleep(600);
+
 
 
                         }
@@ -203,7 +205,7 @@ namespace MPTUpdater
                 }
             }
         }
-        
+
 
         public static void CleanUP(string path)
         {
@@ -223,8 +225,8 @@ namespace MPTUpdater
                     Console.WriteLine(ex.ToString());
                     Console.Read();
                 }
-                
-                
+
+
             }
             if (Directory.Exists(gitPath))
             {
@@ -257,7 +259,7 @@ namespace MPTUpdater
 
         public static void DelRepo(string path)
         {
-            
+
             //Root Path Within MPT Stored As A Variable.
             string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
 
@@ -267,27 +269,21 @@ namespace MPTUpdater
             //Path To Plugins Folder From Dynamic Root Path
             string pluginsDir = Path.GetFullPath(Path.Combine(rootPath, @"BepInEx\plugins\"));
 
-            //Path To Config Folder From Dynamic Root Path
-            string configDir = Path.GetFullPath(Path.Combine(rootPath, @"BepInEx\config\"));
-
             
 
+
+
             //Check if neccisary directories exist
-            if (Directory.Exists(rootPath) && Directory.Exists(modsDir) && Directory.Exists(pluginsDir) && Directory.Exists(configDir))
+            if (Directory.Exists(rootPath) && Directory.Exists(modsDir) && Directory.Exists(pluginsDir))
             {
-                
+
                 //Remove mods folder content
                 FileRemove(modsDir);
-                
+
 
                 //Remove plugins folder content
                 FileRemove(pluginsDir);
-                
 
-                //Remove config folder content
-                FileRemove(configDir);
-                    
-                
             }
 
             else
@@ -299,7 +295,7 @@ namespace MPTUpdater
 
         public static bool IsLocked(string filePath)
         {
-            
+
             //Check if there is a lock on the current file for example if its currently being used by other program it will skip it
             FileInfo f = new FileInfo(filePath);
             FileStream stream = null;
@@ -317,7 +313,7 @@ namespace MPTUpdater
                 if (stream != null)
                     stream.Close();
             }
-            
+
             return false;
 
         }
@@ -326,7 +322,7 @@ namespace MPTUpdater
         public static void FileRemove(string folderPath)
         {
             //Remove files individually and directories individually 
-            
+
             DirectoryInfo di = new DirectoryInfo(folderPath);
 
             foreach (var file in Directory.GetFiles(folderPath))
@@ -341,25 +337,25 @@ namespace MPTUpdater
             {
                 dir.Delete(true);
             }
-            
+
         }
         public static void RepoDL(string url, string path)
         {
-            
+
             //path to root of mpt folder                                                                                     
             string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
             //temp save path for copies repo
             string savePath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
-            
+
 
             Console.ForegroundColor = ConsoleColor.White;
 
             //Clone repo to temp location
             Repository.Clone(url, savePath);
 
-            
+
             //Copy temp data to MPT location
-            CopyDirectory(savePath, rootPath); 
+            CopyDirectory(savePath, rootPath);
         }
 
 
