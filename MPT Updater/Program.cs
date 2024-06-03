@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Security.AccessControl;
@@ -139,14 +139,21 @@ namespace MPTUpdater
                             using var pbar = new ProgressBar(totalTicks, "Update In Progress, Dont Close This Window!\n", options);
 
                             pbar.Tick();
-                            Console.WriteLine($"\n\n\bDeleting Mods/Plugins/Configs...");
+                            Console.WriteLine($"\n\n\nSaving Core Files...");
+                            Thread.Sleep(600);
+                            //Send for SaveCore
+                            SaveCore(currentWorkingDirectory);
+                            pbar.Tick();
+                            Console.WriteLine($"\n\n\bDeleting...");
                             Thread.Sleep(600);
                             //Send for DelDIR
                             DelRepo(currentWorkingDirectory);
                             pbar.Tick();
                             //Send for RepoDL
-                            Console.WriteLine($"\n\n\bDownloading Mods/Plugins/Configs...");
+                            Console.WriteLine($"\n\n\bDownloading...");
                             Thread.Sleep(600);
+                            //Send for RestoreCore
+                            
 
                             if (userInput2 == 1)
                             {
@@ -184,11 +191,14 @@ namespace MPTUpdater
                                 pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500); pbar.Tick(); Thread.Sleep(500);
                             }
 
+                            Console.WriteLine($"\n\n\bRestoring Core Files...");
+                            RestoreCore(currentWorkingDirectory);
+                            pbar.Tick();
                             pbar.Tick();
                             //Send for CleanUp
                             Console.WriteLine($"\n\n\bCleaning Up...");
-
                             CleanUP(currentWorkingDirectory);
+
                             pbar.Tick();
                             Console.WriteLine($"\n\n\bUpdate Complete!");
                             Thread.Sleep(600);
@@ -206,19 +216,64 @@ namespace MPTUpdater
             }
         }
 
+        public static void RestoreCore(string path)
+        {
+            string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
+            string bepInExPath = Path.GetFullPath(Path.Combine(rootPath, @"BepInEx\"));
+            string pluginsPath = Path.GetFullPath(Path.Combine(bepInExPath, @"plugins\"));
+            string sptPath = Path.GetFullPath(Path.Combine(pluginsPath, @"spt\"));
+            string tempPath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo2\"));
+            try
+            {
+                ForceDeleteDirectory(sptPath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.Read();
+            }
+            CopyDirectory(tempPath, sptPath);
+        }
 
+        public static void SaveCore(string path)
+        {
+            string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
+            string bepInExPath = Path.GetFullPath(Path.Combine(rootPath, @"BepInEx\"));
+            string pluginsPath = Path.GetFullPath(Path.Combine(bepInExPath, @"plugins\"));
+            string sptPath = Path.GetFullPath(Path.Combine(pluginsPath, @"spt\"));
+            string tempPath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo2\"));
+            Directory.CreateDirectory(tempPath);
+            CopyDirectory(sptPath, tempPath);
+        }
         public static void CleanUP(string path)
         {
 
             string rootPath = Path.GetFullPath(Path.Combine(path, @"..\..\"));
             string gitPath = Path.GetFullPath(Path.Combine(rootPath, @".git\"));
             string savePath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo\"));
+            string tempPath = Path.GetFullPath(Path.Combine(rootPath, @"TempRepo2\"));
+            
 
+            
             if (Directory.Exists(savePath))
             {
                 try
                 {
                     ForceDeleteDirectory(savePath);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    Console.Read();
+                }
+
+
+            }
+            if (Directory.Exists(tempPath))
+            {
+                try
+                {
+                    ForceDeleteDirectory(tempPath);
                 }
                 catch (Exception ex)
                 {
@@ -269,7 +324,7 @@ namespace MPTUpdater
             //Path To Plugins Folder From Dynamic Root Path
             string pluginsDir = Path.GetFullPath(Path.Combine(rootPath, @"BepInEx\plugins\"));
 
-            
+
 
 
 
