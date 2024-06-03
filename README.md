@@ -1,4 +1,5 @@
 # MPT Updater
+![image](https://github.com/smarterskipper/MPT-UPDATER/assets/100497831/af1232bf-be7c-4fba-9095-26d2e27f1212)
 
 MPTUpdater is a console application designed to update the Mods, Plugins, and Configurations of the MPT client from a specified GitHub repository. It automates the process of cloning the repository, deleting old files, and copying the new ones into place.
 
