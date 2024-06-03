@@ -18,7 +18,7 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
 ## Getting Started
 
 ### Giude on setting up github repo to work with your server 
-- https://github.com/lukas-gust/mpt-updater-template/tree/main
+- [https://github.com/lukas-gust/mpt-updater-template/tree/main](https://github.com/lukas-gust/mpt-updater-template/tree/main)
   
 ### Installation
 - Drag MPT-Updater.exe into your user>mods Folder.
