@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bosto\\Documents\\csharp\\MPT-UPDATER-main\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj": {}
+    "C:\\Users\\Admin\\Documents\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bosto\\Documents\\csharp\\MPT-UPDATER-main\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj": {
+    "C:\\Users\\Admin\\Documents\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bosto\\Documents\\csharp\\MPT-UPDATER-main\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj",
         "projectName": "MPT Updater",
-        "projectPath": "C:\\Users\\bosto\\Documents\\csharp\\MPT-UPDATER-main\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj",
-        "packagesPath": "C:\\Users\\bosto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bosto\\Documents\\csharp\\MPT-UPDATER-main\\MPT-UPDATER-main\\MPT Updater\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\MPT-UPDATER-main\\MPT Updater\\MPT Updater.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\MPT-UPDATER-main\\MPT Updater\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bosto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,10 +48,6 @@
             "LibGit2Sharp": {
               "target": "Package",
               "version": "[0.30.0, )"
-            },
-            "MegaApiClient": {
-              "target": "Package",
-              "version": "[1.10.4, )"
             },
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
@@ -91,32 +83,16 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[6.0.27, 6.0.27]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.28, 6.0.28]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[6.0.27, 6.0.27]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.28, 6.0.28]"
+              "version": "[6.0.27, 6.0.27]"
             }
           ],
           "frameworkReferences": {
@@ -124,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
