@@ -195,3 +195,16 @@ C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\MPT UpdaterV2.pdb
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\MPT UpdaterV2.genruntimeconfig.cache
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\ref\MPT UpdaterV2.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\ClickableTransparentOverlay.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\ImGui.NET.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Newtonsoft.Json.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SharpGen.Runtime.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SharpGen.Runtime.COM.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SixLabors.ImageSharp.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.D3DCompiler.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.Direct3D11.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.DirectX.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.DXGI.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.Mathematics.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\cimgui.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\MPT UpdaterV2.csproj.AssemblyReference.cache
