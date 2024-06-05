@@ -17,6 +17,8 @@ MPTUpdater is a console application designed to update the Mods, Plugins, and Co
   
 ### Installation
 - Drag MPT-Updater.exe into your user>mods Folder.
+- Setup Github Repo
+- Setup Gitnore file for exclusions and inclusions of files.
 
 ### Running the Application
 
