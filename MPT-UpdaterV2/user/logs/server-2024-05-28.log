@@ -1,0 +1,1871 @@
+[2024-05-29T02:23:37.193Z] debug: 	Importing configs...
+[2024-05-29T02:23:37.279Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T02:23:37.279Z] info: 	Build date: 1715594841109
+[2024-05-29T02:23:37.356Z] info: 	ModLoader: user/mod folder missing, creating...
+[2024-05-29T02:23:37.379Z] info: 	Server: executing startup callbacks...
+[2024-05-29T02:23:37.379Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T02:23:37.380Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T02:23:37.380Z] debug: 	RAM: 63.78GB
+[2024-05-29T02:23:37.380Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T02:23:37.380Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T02:23:37.380Z] debug: 	Server: 3.8.3
+[2024-05-29T02:23:37.381Z] debug: 	Date: 1715594841109
+[2024-05-29T02:23:37.381Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T02:23:37.387Z] info: 	Importing database...
+[2024-05-29T02:23:52.298Z] info: 	Database import finished
+[2024-05-29T02:23:54.223Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-05-29T02:23:54.224Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-05-29T02:23:54.224Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T02:58:25.608Z] debug: 	Importing configs...
+[2024-05-29T02:58:25.627Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T02:58:25.627Z] info: 	Build date: 1715594841109
+[2024-05-29T02:58:25.639Z] info: 	ModLoader: loading 5 server mods...
+[2024-05-29T02:58:25.642Z] info: 	Mod: SVM version: 1.8.3 by: GhostFenixx loaded
+[2024-05-29T02:58:25.657Z] debug: 	Mod tyfon-uifixes hash stored in ./user/cache/modCache.json
+[2024-05-29T02:58:25.675Z] info: 	Mod: uifixes version: 1.6.0 by: Tyfon loaded
+[2024-05-29T02:58:25.685Z] debug: 	Mod Skwizzy-NoDiscardLimit hash stored in ./user/cache/modCache.json
+[2024-05-29T02:58:25.704Z] info: 	Mod: NoDiscardLimit version: 1.4.0 by: Skwizzy loaded
+[2024-05-29T02:58:25.820Z] debug: 	Mod BarlogM-Andern hash stored in ./user/cache/modCache.json
+[2024-05-29T02:58:26.060Z] info: 	Mod: Andern version: 2.2.1 by: BarlogM loaded
+[2024-05-29T02:58:26.067Z] debug: 	Mod zSolarint-SAIN-ServerMod hash stored in ./user/cache/modCache.json
+[2024-05-29T02:58:26.071Z] info: 	Mod: SAIN version: 2.2.6 by: zSolarint loaded
+[2024-05-29T02:58:26.091Z] info: 	[Andern] Map Info updater registered
+[2024-05-29T02:58:26.091Z] info: 	[Andern] PMC Bot Level Generator registered
+[2024-05-29T02:58:26.100Z] warn: 	[Andern] preset doesn't have tactical device './user/mods/BarlogM-Andern/presets/meta/one/AUG T1.json'
+[2024-05-29T02:58:26.103Z] info: 	[Andern] Loaded preset 'meta'
+[2024-05-29T02:58:26.104Z] info: 	[Andern] PMC Bot Inventory Generator registered
+[2024-05-29T02:58:26.119Z] info: 	Server: executing startup callbacks...
+[2024-05-29T02:58:26.119Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T02:58:26.119Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T02:58:26.119Z] debug: 	RAM: 63.78GB
+[2024-05-29T02:58:26.119Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T02:58:26.119Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T02:58:26.119Z] debug: 	Server: 3.8.3
+[2024-05-29T02:58:26.119Z] debug: 	Date: 1715594841109
+[2024-05-29T02:58:26.119Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T02:58:26.120Z] info: 	Importing database...
+[2024-05-29T02:58:28.081Z] info: 	Database import finished
+[2024-05-29T02:58:28.090Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-05-29T02:58:28.090Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-05-29T02:58:28.091Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-05-29T02:58:28.096Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-05-29T02:58:28.747Z] info: 	[Andern] Doe trader registered
+[2024-05-29T02:58:30.562Z] info: 	[Andern] Flea Market minimal user level set to 15
+[2024-05-29T02:58:30.567Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-05-29T02:58:30.567Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-05-29T02:58:30.567Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T02:58:35.587Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T02:58:54.120Z] info: 	[Client Request] /launcher/server/connect
+[2024-05-29T02:58:54.131Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T02:58:54.132Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T02:58:54.134Z] info: 	[Client Request] /files/launcher/bg.png
+[2024-05-29T02:58:54.146Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T02:58:54.146Z] info: 	[Client Request] /launcher/profiles
+[2024-05-29T02:58:55.605Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T02:59:00.965Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T02:59:06.027Z] info: 	[Client Request] /launcher/profile/register
+[2024-05-29T02:59:06.035Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T02:59:06.036Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T02:59:06.039Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T02:59:06.042Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T02:59:06.044Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2024-05-29T02:59:06.048Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2024-05-29T02:59:06.050Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T02:59:06.051Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T02:59:06.052Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T02:59:06.053Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T02:59:08.276Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T02:59:08.277Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T02:59:08.278Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T02:59:08.279Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T02:59:15.625Z] debug: 	Saved 1 profiles, took: 5.08ms
+[2024-05-29T02:59:19.871Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-05-29T02:59:19.885Z] info: 	[Client Request] /singleplayer/release
+[2024-05-29T02:59:19.893Z] info: 	[Client Request] /singleplayer/enableBSGlogging
+[2024-05-29T02:59:20.249Z] info: 	[Client Request] /singleplayer/bundles
+[2024-05-29T02:59:24.093Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-05-29T02:59:24.191Z] info: 	[Client Request] /client/game/start
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T02:59:24.191Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T02:59:24.192Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T02:59:24.193Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T02:59:24.238Z] info: 	[Client Request] /client/menu/locale/en
+[2024-05-29T02:59:24.303Z] info: 	[Client Request] /client/game/version/validate
+[2024-05-29T02:59:24.355Z] info: 	[Client Request] /client/languages
+[2024-05-29T02:59:24.394Z] info: 	[Client Request] /client/game/config
+[2024-05-29T02:59:25.137Z] info: 	[Client Request] /client/items
+[2024-05-29T02:59:29.332Z] info: 	[Client Request] /client/customization
+[2024-05-29T02:59:29.439Z] info: 	[Client Request] /client/globals
+[2024-05-29T02:59:29.851Z] info: 	[Client Request] /client/trading/api/traderSettings
+[2024-05-29T02:59:29.903Z] info: 	[Client Request] /client/settings
+[2024-05-29T02:59:29.952Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T02:59:30.022Z] info: 	[Client Request] /client/locale/en
+[2024-05-29T02:59:30.048Z] info: 	[Client Request] /client/account/customization
+[2024-05-29T02:59:30.247Z] info: 	[Client Request] /client/locale/ru
+[2024-05-29T02:59:30.583Z] info: 	[Client Request] /client/locale/ge
+[2024-05-29T02:59:30.826Z] info: 	[Client Request] /client/locale/fr
+[2024-05-29T02:59:31.712Z] info: 	[Client Request] /client/game/profile/nickname/reserved
+[2024-05-29T02:59:33.077Z] info: 	[Client Request] /client/game/profile/nickname/validate
+[2024-05-29T02:59:35.653Z] debug: 	Saved 1 profiles, took: 0.08ms
+[2024-05-29T02:59:37.076Z] info: 	[Client Request] /client/game/profile/create
+[2024-05-29T02:59:37.077Z] debug: 	Added wall improvement 639199277a9178252d38c98f to profile
+[2024-05-29T02:59:37.077Z] debug: 	Added wall improvement 639199277a9178252d38c990 to profile
+[2024-05-29T02:59:37.077Z] debug: 	Added wall improvement 639199277a9178252d38c991 to profile
+[2024-05-29T02:59:37.077Z] debug: 	Added wall improvement 639199277a9178252d38c992 to profile
+[2024-05-29T02:59:37.077Z] debug: 	Added missing gun stand inventory stash: 63db64cbf9963741dc0d741f tpl to 64381b6e44b37a080d0245b9
+[2024-05-29T02:59:37.077Z] debug: 	Added missing gun stand inventory secondary stash: 640b2d867f4185aa520d08ba tpl to 64381b6e44b37a080d0245b9
+[2024-05-29T02:59:37.077Z] debug: 	Added missing place of fame inventory stash: 5d494a295b56502f18c98a08 tpl to 6542435ea57eea37ed6562f0
+[2024-05-29T02:59:37.077Z] debug: 	unable to sort 17 slots, no slots found
+[2024-05-29T02:59:37.077Z] debug: 	unable to sort 4 slots, no slots found
+[2024-05-29T02:59:37.077Z] debug: 	unable to sort 20 slots, no slots found
+[2024-05-29T02:59:37.077Z] debug: 	unable to sort 6 slots, no slots found
+[2024-05-29T02:59:37.077Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-05-29T02:59:37.078Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-05-29T02:59:37.078Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-05-29T02:59:37.078Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area LAVATORY but no bonus found, adding UnlockArmorRepair
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: UnlockArmorRepair to profile, value: 1
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 2 area LAVATORY but no bonus found, adding RepairArmorBonus
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: RepairArmorBonus to profile, value: 3
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area LAVATORY but no bonus found, adding RepairArmorBonus
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: RepairArmorBonus to profile, value: 6
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 2 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 4
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 2 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 8
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 12
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area HEATING but no bonus found, adding DebuffEndDelay
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: DebuffEndDelay to profile, value: -50
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 10
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 2 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 20
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 30
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 1
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 6
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 1 area MEDSTATION but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.078Z] debug: 	Profile has level 2 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.078Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 12
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 20
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 20
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area NUTRITION_UNIT but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 7
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 30
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area NUTRITION_UNIT but no bonus found, adding HydrationRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 20
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area REST_SPACE but no bonus found, adding DebuffEndDelay
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: DebuffEndDelay to profile, value: -10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area REST_SPACE but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 5
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area REST_SPACE but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 5
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area REST_SPACE but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area REST_SPACE but no bonus found, adding MaximumEnergyReserve
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: MaximumEnergyReserve to profile, value: 10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding UnlockWeaponModification
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: UnlockWeaponModification to profile, value: 1
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding UnlockWeaponRepair
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: UnlockWeaponRepair to profile, value: 1
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area WORKBENCH but no bonus found, adding RepairWeaponBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: RepairWeaponBonus to profile, value: 3
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area WORKBENCH but no bonus found, adding RepairWeaponBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: RepairWeaponBonus to profile, value: 6
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area INTEL_CENTER but no bonus found, adding ScavCooldownTimer
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: ScavCooldownTimer to profile, value: -15
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area INTEL_CENTER but no bonus found, adding QuestMoneyReward
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: QuestMoneyReward to profile, value: 5
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area INTEL_CENTER but no bonus found, adding QuestMoneyReward
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: QuestMoneyReward to profile, value: 10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 2 area INTEL_CENTER but no bonus found, adding InsuranceReturnTime
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: InsuranceReturnTime to profile, value: -20
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area INTEL_CENTER but no bonus found, adding ScavCooldownTimer
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: ScavCooldownTimer to profile, value: -20
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area INTEL_CENTER but no bonus found, adding RagfairCommission
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: RagfairCommission to profile, value: -30
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area SHOOTING_RANGE but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 3 area SHOOTING_RANGE but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 10
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area LIBRARY but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: ExperienceRate to profile, value: 15
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area LIBRARY but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 30
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area SCAV_CASE but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: TextBonus to profile, value: 3
+[2024-05-29T02:59:37.079Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.079Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 12
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 12
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 10
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 24
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 24
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area AIR_FILTERING but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 40
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area AIR_FILTERING but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area SOLAR_POWER but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: FuelConsumption to profile, value: -50
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area BOOZE_GENERATOR but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 10
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 1 area BITCOIN_FARM but no bonus found, adding TextBonus
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 15
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 25
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T02:59:37.080Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.080Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: FuelConsumption to profile, value: -20
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 20
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 20
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: ExperienceRate to profile, value: 12
+[2024-05-29T02:59:37.081Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T02:59:37.081Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 12
+[2024-05-29T02:59:37.087Z] debug: 	generated player scav loadout with karma level 6
+[2024-05-29T02:59:37.177Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T02:59:37.328Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T02:59:37.384Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T02:59:37.436Z] info: 	[Client Request] /client/weather
+[2024-05-29T02:59:37.438Z] info: 	[Client Request] /client/locations
+[2024-05-29T02:59:37.438Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T02:59:37.975Z] info: 	[Client Request] /client/handbook/templates
+[2024-05-29T02:59:39.088Z] info: 	[Client Request] /client/hideout/areas
+[2024-05-29T02:59:39.177Z] info: 	[Client Request] /client/hideout/qte/list
+[2024-05-29T02:59:39.217Z] info: 	[Client Request] /client/hideout/settings
+[2024-05-29T02:59:39.266Z] info: 	[Client Request] /client/hideout/production/recipes
+[2024-05-29T02:59:39.350Z] info: 	[Client Request] /client/hideout/production/scavcase/recipes
+[2024-05-29T02:59:39.400Z] info: 	[Client Request] /client/builds/list
+[2024-05-29T02:59:40.845Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.846Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T02:59:40.847Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.847Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T02:59:40.849Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.849Z] debug: 	[Aki.Core] 0
+[2024-05-29T02:59:40.851Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.851Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T02:59:40.853Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.853Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T02:59:40.855Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T02:59:40.855Z] debug: 	[Aki.Core] 0
+[2024-05-29T02:59:41.317Z] info: 	[Client Request] /client/notifier/channel/create
+[2024-05-29T02:59:41.318Z] info: 	[Client Request] /client/trading/customization/storage
+[2024-05-29T02:59:41.318Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T02:59:41.363Z] info: 	[WS] Player: test (665699fa0004faa5a02c48c4) has connected
+[2024-05-29T02:59:41.375Z] info: 	[Client Request] /client/server/list
+[2024-05-29T02:59:41.377Z] info: 	[Client Request] /client/match/group/current
+[2024-05-29T02:59:41.377Z] info: 	[Client Request] /client/friend/list
+[2024-05-29T02:59:41.378Z] info: 	[Client Request] /client/mail/dialog/list
+[2024-05-29T02:59:41.388Z] info: 	[Client Request] /client/friend/request/list/inbox
+[2024-05-29T02:59:41.388Z] info: 	[Client Request] /client/friend/request/list/outbox
+[2024-05-29T02:59:41.388Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T02:59:42.327Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T02:59:42.327Z] debug: 	Generating new Daily
+[2024-05-29T02:59:42.350Z] debug: 	Generating daily quest for 54cb50c76803fa8b248b4571 with budget 85910 for 4 items
+[2024-05-29T02:59:42.351Z] debug: 	  Added item 5bc9b9ecd4351e3bac122519 with price 55449
+[2024-05-29T02:59:42.351Z] debug: 	  Added item 5d1b2ffd86f77425243e8d17 with price 25300
+[2024-05-29T02:59:42.351Z] debug: 	  Reward pool empty with 5161 remaining
+[2024-05-29T02:59:42.351Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-05-29T02:59:42.360Z] debug: 	Generating daily quest for 58330581ace78e27b8b10cee with budget 24417 for 2 items
+[2024-05-29T02:59:42.361Z] debug: 	  Added weapon 5f36a0e5fbf956000b716b65 with price 21108
+[2024-05-29T02:59:42.361Z] debug: 	  Added item 5a32aa8bc4a2826c6e06d737 with price 44430
+[2024-05-29T02:59:42.381Z] debug: 	Generating daily quest for 5c0647fdd443bc2504c2d371 with budget 61744 for 3 items
+[2024-05-29T02:59:42.381Z] debug: 	  Added item 5d1b327086f7742525194449 with price 61200
+[2024-05-29T02:59:42.381Z] debug: 	  Reward pool empty with 544 remaining
+[2024-05-29T02:59:42.381Z] debug: 	  Adding 0.04 trader reputation reward
+[2024-05-29T02:59:42.381Z] debug: 	Generating new Weekly
+[2024-05-29T02:59:42.400Z] debug: 	Generating daily quest for 54cb50c76803fa8b248b4571 with budget 1196660 for 7 items
+[2024-05-29T02:59:42.401Z] debug: 	  Added weapon 606587252535c57a13424cfd with price 106051
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 60b0f7057897d47c5b04ab94 with price 83029
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 5d1b2ffd86f77425243e8d17 with price 25300
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 5bc9b720d4351e450201234b with price 44639
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 5d0376a486f7747d8050965c with price 40000
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 5d1b2ffd86f77425243e8d17 with price 25300
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 60b0f561c4449e4cb624c1d7 with price 101784
+[2024-05-29T02:59:42.401Z] debug: 	  Added item 5c052f6886f7746b1e3db148 with price 145500
+[2024-05-29T02:59:42.401Z] debug: 	  Adding 0.03 trader reputation reward
+[2024-05-29T02:59:42.401Z] debug: 	Generating new Daily_Savage
+[2024-05-29T02:59:42.409Z] debug: 	Generating daily quest for 579dc571d53a0658a154fbec with budget 31170 for 4 items
+[2024-05-29T02:59:42.409Z] debug: 	  Added item 5d44069ca4b9361ebd26fc37 with price 18800
+[2024-05-29T02:59:42.409Z] debug: 	  Reward pool empty with 12370 remaining
+[2024-05-29T02:59:42.409Z] debug: 	  Adding 0.03 trader reputation reward
+[2024-05-29T02:59:42.456Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T02:59:42.500Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T02:59:45.041Z] info: 	[Client Request] /client/checkVersion
+[2024-05-29T02:59:49.885Z] info: 	[Client Request] /singleplayer/settings/raid/menu
+[2024-05-29T02:59:50.399Z] info: 	[Client Request] /files/trader/avatar/59b91ca086f77469a81232e4.jpg
+[2024-05-29T02:59:50.417Z] info: 	[Client Request] /client/insurance/items/list/cost
+[2024-05-29T02:59:52.655Z] info: 	[Client Request] /client/match/group/exit_from_menu
+[2024-05-29T02:59:55.028Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T02:59:55.684Z] debug: 	Saved 1 profiles, took: 5.69ms
+[2024-05-29T03:00:05.628Z] info: 	[Client Request] /singleplayer/settings/getRaidTime
+[2024-05-29T03:00:05.657Z] info: 	[Client Request] /client/location/getLocalloot
+[2024-05-29T03:00:05.657Z] debug: 	Generating data for: Woods, variant: 2
+[2024-05-29T03:00:05.664Z] debug: 	createItem() No preset found for weapon: 62178c4d4ecf221597654e3d
+[2024-05-29T03:00:05.669Z] debug: 	Added 57 guaranteed containers
+[2024-05-29T03:00:05.673Z] debug: 	createItem() No preset found for weapon: 62178be9d0050232da3485d9
+[2024-05-29T03:00:05.676Z] debug: 	createItem() No preset found for weapon: 624c0b3340357b5f566e8766
+[2024-05-29T03:00:05.678Z] debug: 	Group: UsecCamp wants 14 containers but pool only has 12, add what's available
+[2024-05-29T03:00:05.681Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:00:05.685Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:00:05.688Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:00:05.690Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:00:05.690Z] debug: 	createItem() No preset found for weapon: 620109578d82e67e7911abf2
+[2024-05-29T03:00:05.698Z] debug: 	Group:  has no containers with < 100% spawn chance to choose from, skipping
+[2024-05-29T03:00:05.698Z] succ: 	A total of 2235 static items spawned
+[2024-05-29T03:00:05.698Z] succ: 	A total of 227 static containers generated
+[2024-05-29T03:00:05.927Z] succ: 	A total of 841 dynamic items spawned
+[2024-05-29T03:00:05.928Z] succ: 	Generated location woods
+[2024-05-29T03:00:05.934Z] info: 	[Client Request] /client/raid/configuration
+[2024-05-29T03:00:05.936Z] info: 	[Andern] raid info {"location":"woods","currentTime":"00:00:41","timeVariant":"PAST","isNight":false}
+[2024-05-29T03:00:09.039Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:00:09.041Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:00:09.042Z] info: 	[Client Request] /files/launcher/side_usec.png
+[2024-05-29T03:00:15.955Z] debug: 	Saved 1 profiles, took: 8.09ms
+[2024-05-29T03:00:16.071Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/core/core
+[2024-05-29T03:00:16.078Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/marksman/easy
+[2024-05-29T03:00:16.085Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/marksman/normal
+[2024-05-29T03:00:16.090Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/marksman/hard
+[2024-05-29T03:00:16.093Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/marksman/impossible
+[2024-05-29T03:00:16.097Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/easy
+[2024-05-29T03:00:16.102Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/normal
+[2024-05-29T03:00:16.108Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/hard
+[2024-05-29T03:00:16.112Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/impossible
+[2024-05-29T03:00:16.116Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTest/normal
+[2024-05-29T03:00:16.120Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTest/normal
+[2024-05-29T03:00:16.126Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTest/normal
+[2024-05-29T03:00:16.130Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTest/normal
+[2024-05-29T03:00:16.133Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBully/normal
+[2024-05-29T03:00:16.137Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBully/normal
+[2024-05-29T03:00:16.141Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBully/normal
+[2024-05-29T03:00:16.145Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBully/normal
+[2024-05-29T03:00:16.149Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTest/normal
+[2024-05-29T03:00:16.152Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTest/normal
+[2024-05-29T03:00:16.156Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTest/normal
+[2024-05-29T03:00:16.159Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTest/normal
+[2024-05-29T03:00:16.164Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBully/normal
+[2024-05-29T03:00:16.169Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBully/normal
+[2024-05-29T03:00:16.173Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBully/normal
+[2024-05-29T03:00:16.177Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBully/normal
+[2024-05-29T03:00:16.181Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKilla/normal
+[2024-05-29T03:00:16.185Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKilla/normal
+[2024-05-29T03:00:16.190Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKilla/normal
+[2024-05-29T03:00:16.193Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKilla/normal
+[2024-05-29T03:00:16.197Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKojaniy/normal
+[2024-05-29T03:00:16.201Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKojaniy/normal
+[2024-05-29T03:00:16.205Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKojaniy/normal
+[2024-05-29T03:00:16.208Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKojaniy/normal
+[2024-05-29T03:00:16.212Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKojaniy/normal
+[2024-05-29T03:00:16.216Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKojaniy/normal
+[2024-05-29T03:00:16.219Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKojaniy/normal
+[2024-05-29T03:00:16.223Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKojaniy/normal
+[2024-05-29T03:00:16.227Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/pmcBot/normal
+[2024-05-29T03:00:16.231Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/pmcBot/normal
+[2024-05-29T03:00:16.234Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/pmcBot/normal
+[2024-05-29T03:00:16.238Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/pmcBot/normal
+[2024-05-29T03:00:16.242Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/cursedAssault/easy
+[2024-05-29T03:00:16.246Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/cursedAssault/normal
+[2024-05-29T03:00:16.249Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/cursedAssault/hard
+[2024-05-29T03:00:16.253Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/cursedAssault/impossible
+[2024-05-29T03:00:16.257Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossGluhar/normal
+[2024-05-29T03:00:16.260Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossGluhar/normal
+[2024-05-29T03:00:16.264Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossGluhar/normal
+[2024-05-29T03:00:16.268Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossGluhar/normal
+[2024-05-29T03:00:16.272Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharAssault/normal
+[2024-05-29T03:00:16.276Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharAssault/normal
+[2024-05-29T03:00:16.280Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharAssault/normal
+[2024-05-29T03:00:16.284Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharAssault/normal
+[2024-05-29T03:00:16.288Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSecurity/normal
+[2024-05-29T03:00:16.292Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSecurity/normal
+[2024-05-29T03:00:16.295Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSecurity/normal
+[2024-05-29T03:00:16.299Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSecurity/normal
+[2024-05-29T03:00:16.303Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharScout/normal
+[2024-05-29T03:00:16.307Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharScout/normal
+[2024-05-29T03:00:16.310Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharScout/normal
+[2024-05-29T03:00:16.314Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharScout/normal
+[2024-05-29T03:00:16.317Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSnipe/normal
+[2024-05-29T03:00:16.321Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSnipe/normal
+[2024-05-29T03:00:16.325Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSnipe/normal
+[2024-05-29T03:00:16.329Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerGluharSnipe/normal
+[2024-05-29T03:00:16.333Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerSanitar/normal
+[2024-05-29T03:00:16.336Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerSanitar/normal
+[2024-05-29T03:00:16.340Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerSanitar/normal
+[2024-05-29T03:00:16.344Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerSanitar/normal
+[2024-05-29T03:00:16.348Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossSanitar/normal
+[2024-05-29T03:00:16.353Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossSanitar/normal
+[2024-05-29T03:00:16.357Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossSanitar/normal
+[2024-05-29T03:00:16.361Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossSanitar/normal
+[2024-05-29T03:00:16.365Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/test/normal
+[2024-05-29T03:00:16.368Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/test/normal
+[2024-05-29T03:00:16.372Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/test/normal
+[2024-05-29T03:00:16.375Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/test/normal
+[2024-05-29T03:00:16.379Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/normal
+[2024-05-29T03:00:16.383Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/normal
+[2024-05-29T03:00:16.386Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/normal
+[2024-05-29T03:00:16.390Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/assault/normal
+[2024-05-29T03:00:16.394Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantWarrior/normal
+[2024-05-29T03:00:16.398Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantWarrior/normal
+[2024-05-29T03:00:16.401Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantWarrior/normal
+[2024-05-29T03:00:16.405Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantWarrior/normal
+[2024-05-29T03:00:16.409Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantPriest/normal
+[2024-05-29T03:00:16.412Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantPriest/normal
+[2024-05-29T03:00:16.416Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantPriest/normal
+[2024-05-29T03:00:16.420Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectantPriest/normal
+[2024-05-29T03:00:16.423Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTagilla/normal
+[2024-05-29T03:00:16.427Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTagilla/normal
+[2024-05-29T03:00:16.431Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTagilla/normal
+[2024-05-29T03:00:16.435Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossTagilla/normal
+[2024-05-29T03:00:16.438Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTagilla/normal
+[2024-05-29T03:00:16.442Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTagilla/normal
+[2024-05-29T03:00:16.446Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTagilla/normal
+[2024-05-29T03:00:16.449Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerTagilla/normal
+[2024-05-29T03:00:16.453Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/exUsec/normal
+[2024-05-29T03:00:16.457Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/exUsec/normal
+[2024-05-29T03:00:16.461Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/exUsec/normal
+[2024-05-29T03:00:16.465Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/exUsec/normal
+[2024-05-29T03:00:16.468Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/gifter/normal
+[2024-05-29T03:00:16.472Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/gifter/normal
+[2024-05-29T03:00:16.476Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/gifter/normal
+[2024-05-29T03:00:16.479Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/gifter/normal
+[2024-05-29T03:00:16.483Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKnight/normal
+[2024-05-29T03:00:16.487Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKnight/normal
+[2024-05-29T03:00:16.491Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKnight/normal
+[2024-05-29T03:00:16.494Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKnight/normal
+[2024-05-29T03:00:16.498Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBigPipe/normal
+[2024-05-29T03:00:16.502Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBigPipe/normal
+[2024-05-29T03:00:16.505Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBigPipe/normal
+[2024-05-29T03:00:16.509Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBigPipe/normal
+[2024-05-29T03:00:16.513Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBirdEye/normal
+[2024-05-29T03:00:16.517Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBirdEye/normal
+[2024-05-29T03:00:16.520Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBirdEye/normal
+[2024-05-29T03:00:16.524Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBirdEye/normal
+[2024-05-29T03:00:16.528Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossZryachiy/normal
+[2024-05-29T03:00:16.531Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossZryachiy/normal
+[2024-05-29T03:00:16.535Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossZryachiy/normal
+[2024-05-29T03:00:16.539Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossZryachiy/normal
+[2024-05-29T03:00:16.542Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerZryachiy/normal
+[2024-05-29T03:00:16.547Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerZryachiy/normal
+[2024-05-29T03:00:16.550Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerZryachiy/normal
+[2024-05-29T03:00:16.553Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerZryachiy/normal
+[2024-05-29T03:00:16.557Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoar/normal
+[2024-05-29T03:00:16.561Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoar/normal
+[2024-05-29T03:00:16.565Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoar/normal
+[2024-05-29T03:00:16.569Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoar/normal
+[2024-05-29T03:00:16.573Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoar/normal
+[2024-05-29T03:00:16.576Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoar/normal
+[2024-05-29T03:00:16.580Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoar/normal
+[2024-05-29T03:00:16.584Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoar/normal
+[2024-05-29T03:00:16.588Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighter/normal
+[2024-05-29T03:00:16.592Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighter/normal
+[2024-05-29T03:00:16.595Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighter/normal
+[2024-05-29T03:00:16.599Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighter/normal
+[2024-05-29T03:00:16.603Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighterEvent/normal
+[2024-05-29T03:00:16.607Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighterEvent/normal
+[2024-05-29T03:00:16.610Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighterEvent/normal
+[2024-05-29T03:00:16.614Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/arenaFighterEvent/normal
+[2024-05-29T03:00:16.617Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoarSniper/normal
+[2024-05-29T03:00:16.620Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoarSniper/normal
+[2024-05-29T03:00:16.624Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoarSniper/normal
+[2024-05-29T03:00:16.628Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossBoarSniper/normal
+[2024-05-29T03:00:16.631Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/crazyAssaultEvent/normal
+[2024-05-29T03:00:16.634Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/crazyAssaultEvent/normal
+[2024-05-29T03:00:16.637Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/crazyAssaultEvent/normal
+[2024-05-29T03:00:16.640Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/crazyAssaultEvent/normal
+[2024-05-29T03:00:16.644Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/peacefullZryachiyEvent/normal
+[2024-05-29T03:00:16.648Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/peacefullZryachiyEvent/normal
+[2024-05-29T03:00:16.651Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/peacefullZryachiyEvent/normal
+[2024-05-29T03:00:16.655Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/peacefullZryachiyEvent/normal
+[2024-05-29T03:00:16.658Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectactPriestEvent/normal
+[2024-05-29T03:00:16.664Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectactPriestEvent/normal
+[2024-05-29T03:00:16.667Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectactPriestEvent/normal
+[2024-05-29T03:00:16.671Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sectactPriestEvent/normal
+[2024-05-29T03:00:16.675Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/ravangeZryachiyEvent/normal
+[2024-05-29T03:00:16.679Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/ravangeZryachiyEvent/normal
+[2024-05-29T03:00:16.682Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/ravangeZryachiyEvent/normal
+[2024-05-29T03:00:16.686Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/ravangeZryachiyEvent/normal
+[2024-05-29T03:00:16.690Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose1/normal
+[2024-05-29T03:00:16.694Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose1/normal
+[2024-05-29T03:00:16.698Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose1/normal
+[2024-05-29T03:00:16.701Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose1/normal
+[2024-05-29T03:00:16.705Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose2/normal
+[2024-05-29T03:00:16.709Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose2/normal
+[2024-05-29T03:00:16.713Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose2/normal
+[2024-05-29T03:00:16.717Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerBoarClose2/normal
+[2024-05-29T03:00:16.720Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKolontay/normal
+[2024-05-29T03:00:16.724Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKolontay/normal
+[2024-05-29T03:00:16.727Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKolontay/normal
+[2024-05-29T03:00:16.731Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/bossKolontay/normal
+[2024-05-29T03:00:16.735Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontayAssault/normal
+[2024-05-29T03:00:16.739Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontayAssault/normal
+[2024-05-29T03:00:16.743Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontayAssault/normal
+[2024-05-29T03:00:16.747Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontayAssault/normal
+[2024-05-29T03:00:16.751Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontaySecurity/normal
+[2024-05-29T03:00:16.754Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontaySecurity/normal
+[2024-05-29T03:00:16.758Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontaySecurity/normal
+[2024-05-29T03:00:16.762Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/followerKolontaySecurity/normal
+[2024-05-29T03:00:16.767Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/shooterBTR/normal
+[2024-05-29T03:00:16.771Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/shooterBTR/normal
+[2024-05-29T03:00:16.774Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/shooterBTR/normal
+[2024-05-29T03:00:16.778Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/shooterBTR/normal
+[2024-05-29T03:00:16.782Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptUsec/easy
+[2024-05-29T03:00:16.786Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptUsec/normal
+[2024-05-29T03:00:16.790Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptUsec/hard
+[2024-05-29T03:00:16.793Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptUsec/impossible
+[2024-05-29T03:00:16.797Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptBear/easy
+[2024-05-29T03:00:16.801Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptBear/normal
+[2024-05-29T03:00:16.805Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptBear/hard
+[2024-05-29T03:00:16.809Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/sptBear/impossible
+[2024-05-29T03:00:17.066Z] info: 	[Client Request] /singleplayer/settings/bot/maxCap
+[2024-05-29T03:00:17.349Z] info: 	[Client Request] /singleplayer/settings/bot/limit/assault
+[2024-05-29T03:00:17.351Z] info: 	[Client Request] /singleplayer/settings/bot/limit/assault
+[2024-05-29T03:00:17.352Z] info: 	[Client Request] /singleplayer/settings/bot/limit/marksman
+[2024-05-29T03:00:17.353Z] info: 	[Client Request] /singleplayer/settings/bot/limit/assault
+[2024-05-29T03:00:17.354Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sptBear
+[2024-05-29T03:00:17.355Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sptUsec
+[2024-05-29T03:00:17.357Z] info: 	[Client Request] /singleplayer/settings/bot/limit/bossKnight
+[2024-05-29T03:00:17.358Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerBigPipe
+[2024-05-29T03:00:17.359Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerBirdEye
+[2024-05-29T03:00:17.360Z] info: 	[Client Request] /singleplayer/settings/bot/limit/bossKojaniy
+[2024-05-29T03:00:17.360Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerKojaniy
+[2024-05-29T03:00:17.361Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sectantPriest
+[2024-05-29T03:00:17.362Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sectantWarrior
+[2024-05-29T03:00:17.363Z] info: 	[Client Request] /singleplayer/settings/bot/limit/arenaFighterEvent
+[2024-05-29T03:00:17.376Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:17.457Z] debug: 	Failed to place item 3 of 4 items into assault containers: Pockets. Tried 4 times, reason: NO_SPACE, skipping
+[2024-05-29T03:00:17.794Z] debug: 	Generated 50 assault () normal bots
+[2024-05-29T03:00:17.837Z] debug: 	Failed to place item 3 of 4 items into assault containers: Pockets. Tried 4 times, reason: NO_SPACE, skipping
+[2024-05-29T03:00:18.031Z] debug: 	No default: mod_pistol_grip mod found on template: weapon_mossberg_590a1_12g and multiple items found in existing pool
+[2024-05-29T03:00:18.250Z] debug: 	Generated 50 assault () easy bots
+[2024-05-29T03:00:18.472Z] debug: 	Generated 30 marksman () normal bots
+[2024-05-29T03:00:18.903Z] debug: 	Generated 50 assault () hard bots
+[2024-05-29T03:00:19.241Z] debug: 	Generated 15 sptBear () normal bots
+[2024-05-29T03:00:19.365Z] debug: 	Generated 15 sptUsec () normal bots
+[2024-05-29T03:00:19.438Z] debug: 	Generated 5 bossKnight () normal bots
+[2024-05-29T03:00:19.561Z] debug: 	Generated 5 followerBigPipe () normal bots
+[2024-05-29T03:00:19.728Z] debug: 	Generated 5 followerBirdEye () normal bots
+[2024-05-29T03:00:19.824Z] debug: 	Generated 5 bossKojaniy () normal bots
+[2024-05-29T03:00:19.895Z] debug: 	Generated 5 followerKojaniy () normal bots
+[2024-05-29T03:00:19.951Z] debug: 	Failed to place item 3 of 4 items into sectantpriest containers: Pockets. Tried 4 times, reason: NO_SPACE, skipping
+[2024-05-29T03:00:20.025Z] debug: 	Generated 10 sectantPriest () normal bots
+[2024-05-29T03:00:20.112Z] debug: 	Generated 10 sectantWarrior () normal bots
+[2024-05-29T03:00:20.290Z] debug: 	Unable to add mod to item: 61bca7cda0eae612383adf57 item_equipment_helmet_nfm_hjelm slot: mod_nvg as no compatible tpl could be found in pool of 2, skipping
+[2024-05-29T03:00:20.290Z] debug: 	Unable to add mod to item: 61bca7cda0eae612383adf57 item_equipment_helmet_nfm_hjelm slot: mod_mount as no compatible tpl could be found in pool of 2, skipping
+[2024-05-29T03:00:20.290Z] debug: 	Unable to add mod to item: 61bca7cda0eae612383adf57 item_equipment_helmet_nfm_hjelm slot: mod_equipment_001 as no compatible tpl could be found in pool of 0, skipping
+[2024-05-29T03:00:20.369Z] debug: 	Generated 15 arenaFighterEvent (arenaFighterEvent) normal bots
+[2024-05-29T03:00:27.628Z] info: 	[Client Request] /singleplayer/airdrop/config
+[2024-05-29T03:00:27.633Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:27.634Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:30.161Z] info: 	[Client Request] /singleplayer/scav/traitorscavhostile
+[2024-05-29T03:00:30.204Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:30.983Z] info: 	[Client Request] /singleplayer/settings/bot/getBotBehaviours/
+[2024-05-29T03:00:34.267Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:35.967Z] debug: 	Saved 1 profiles, took: 1.91ms
+[2024-05-29T03:00:37.445Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.446Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.447Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.455Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.456Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.456Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.457Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.542Z] debug: 	Generated 15 sptBear () hard bots
+[2024-05-29T03:00:37.542Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.543Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.543Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.545Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.545Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.546Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.546Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:37.547Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:45.690Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:46.630Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:00:56.003Z] debug: 	Saved 1 profiles, took: 8.12ms
+[2024-05-29T03:01:09.038Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:01:09.040Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:01:11.372Z] debug: 	[WS] Pinging player: 665699fa0004faa5a02c48c4
+[2024-05-29T03:01:11.372Z] debug: 	[WS] Socket lost, deleting handle
+[2024-05-29T03:01:16.031Z] debug: 	Saved 1 profiles, took: 1.72ms
+[2024-05-29T03:01:36.061Z] debug: 	Saved 1 profiles, took: 2.63ms
+[2024-05-29T03:01:56.095Z] debug: 	Saved 1 profiles, took: 9.04ms
+[2024-05-29T03:02:09.035Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:02:09.036Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:02:16.118Z] debug: 	Saved 1 profiles, took: 1.92ms
+[2024-05-29T03:02:33.418Z] info: 	[Client Request] /singleplayer/settings/raid/endstate
+[2024-05-29T03:02:34.474Z] info: 	[Client Request] /files/achievement/Standard_35_1.png
+[2024-05-29T03:02:34.515Z] info: 	[Client Request] /client/match/offline/end
+[2024-05-29T03:02:36.141Z] debug: 	Saved 1 profiles, took: 8.13ms
+[2024-05-29T03:02:39.531Z] info: 	[Client Request] /raid/profile/save
+[2024-05-29T03:02:39.533Z] debug: 	Raid outcome: killed
+[2024-05-29T03:02:39.535Z] debug: 	Updated quests values: (AvailableForStart: 353 times)
+[2024-05-29T03:02:39.536Z] debug: 	Updated statusTimers values: (AvailableForStart: 353 times)
+[2024-05-29T03:02:41.037Z] info: 	[WS] Player: test (665699fa0004faa5a02c48c4) has connected
+[2024-05-29T03:02:42.481Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:02:42.617Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T03:02:42.650Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:02:42.690Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T03:02:43.456Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T03:02:43.457Z] debug: 	[Quest Check] Daily quests are still valid.
+[2024-05-29T03:02:43.457Z] debug: 	[Quest Check] Weekly quests are still valid.
+[2024-05-29T03:02:43.457Z] debug: 	[Quest Check] Daily_Savage quests are still valid.
+[2024-05-29T03:02:43.489Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T03:02:43.521Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T03:02:47.833Z] info: 	[Client Request] /client/game/profile/items/moving
+[2024-05-29T03:02:47.833Z] debug: 	event: RestoreHealth
+[2024-05-29T03:02:47.834Z] debug: 	Item(s) taken. Status OK.
+[2024-05-29T03:02:50.531Z] info: 	[Client Request] /client/items
+[2024-05-29T03:02:53.618Z] info: 	[Client Request] /client/customization
+[2024-05-29T03:02:53.736Z] info: 	[Client Request] /client/globals
+[2024-05-29T03:02:53.985Z] info: 	[Client Request] /client/trading/api/traderSettings
+[2024-05-29T03:02:54.048Z] info: 	[Client Request] /client/settings
+[2024-05-29T03:02:54.121Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:02:54.252Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T03:02:54.314Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:02:54.365Z] info: 	[Client Request] /client/weather
+[2024-05-29T03:02:54.366Z] info: 	[Client Request] /client/locations
+[2024-05-29T03:02:54.367Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T03:02:54.869Z] info: 	[Client Request] /client/handbook/templates
+[2024-05-29T03:02:56.177Z] debug: 	Saved 1 profiles, took: 10.17ms
+[2024-05-29T03:02:57.679Z] info: 	[Client Request] /client/hideout/areas
+[2024-05-29T03:02:57.753Z] info: 	[Client Request] /client/hideout/qte/list
+[2024-05-29T03:02:57.825Z] info: 	[Client Request] /client/hideout/settings
+[2024-05-29T03:02:57.889Z] info: 	[Client Request] /client/hideout/production/recipes
+[2024-05-29T03:02:57.984Z] info: 	[Client Request] /client/hideout/production/scavcase/recipes
+[2024-05-29T03:02:58.060Z] info: 	[Client Request] /client/builds/list
+[2024-05-29T03:02:59.219Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.220Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:02:59.224Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.224Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:02:59.226Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.226Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:02:59.230Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.230Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:02:59.232Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.232Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:02:59.234Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:02:59.234Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:03:00.020Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:03:00.021Z] info: 	[Client Request] /client/notifier/channel/create
+[2024-05-29T03:03:00.021Z] info: 	[Client Request] /client/trading/customization/storage
+[2024-05-29T03:03:00.066Z] info: 	[WS] Player: test (665699fa0004faa5a02c48c4) has connected
+[2024-05-29T03:03:00.073Z] info: 	[Client Request] /client/friend/request/list/outbox
+[2024-05-29T03:03:00.073Z] info: 	[Client Request] /client/server/list
+[2024-05-29T03:03:00.074Z] info: 	[Client Request] /client/match/group/current
+[2024-05-29T03:03:00.074Z] info: 	[Client Request] /client/friend/list
+[2024-05-29T03:03:00.074Z] info: 	[Client Request] /client/friend/request/list/inbox
+[2024-05-29T03:03:00.075Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T03:03:00.083Z] info: 	[Client Request] /client/mail/dialog/list
+[2024-05-29T03:03:00.835Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T03:03:00.835Z] debug: 	[Quest Check] Daily quests are still valid.
+[2024-05-29T03:03:00.835Z] debug: 	[Quest Check] Weekly quests are still valid.
+[2024-05-29T03:03:00.835Z] debug: 	[Quest Check] Daily_Savage quests are still valid.
+[2024-05-29T03:03:00.896Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T03:03:00.958Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T03:03:09.036Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:03:09.037Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:03:16.200Z] debug: 	Saved 1 profiles, took: 8.55ms
+[2024-05-29T03:03:22.183Z] info: 	[Client Request] /client/game/logout
+[2024-05-29T03:03:22.185Z] debug: 	Saved 1 profiles, took: 1.90ms
+[2024-05-29T03:03:24.042Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:03:24.043Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:03:34.422Z] debug: 	Importing configs...
+[2024-05-29T03:03:34.440Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T03:03:34.440Z] info: 	Build date: 1715594841109
+[2024-05-29T03:03:34.452Z] info: 	ModLoader: loading 6 server mods...
+[2024-05-29T03:03:34.455Z] debug: 	ModLoader: Mod fika-server is missing from order.json, adding
+[2024-05-29T03:03:34.455Z] info: 	Mod: SVM version: 1.8.3 by: GhostFenixx loaded
+[2024-05-29T03:03:34.456Z] info: 	Mod: uifixes version: 1.6.0 by: Tyfon loaded
+[2024-05-29T03:03:34.457Z] info: 	Mod: NoDiscardLimit version: 1.4.0 by: Skwizzy loaded
+[2024-05-29T03:03:34.458Z] info: 	Mod: Andern version: 2.2.1 by: BarlogM loaded
+[2024-05-29T03:03:34.459Z] info: 	Mod: SAIN version: 2.2.6 by: zSolarint loaded
+[2024-05-29T03:03:34.680Z] debug: 	Mod fika-server hash stored in ./user/cache/modCache.json
+[2024-05-29T03:03:34.900Z] info: 	Mod: server version: 2.1.1 by: Fika loaded
+[2024-05-29T03:03:34.919Z] info: 	[Andern] Map Info updater registered
+[2024-05-29T03:03:34.920Z] info: 	[Andern] PMC Bot Level Generator registered
+[2024-05-29T03:03:34.930Z] warn: 	[Andern] preset doesn't have tactical device './user/mods/BarlogM-Andern/presets/meta/one/AUG T1.json'
+[2024-05-29T03:03:34.934Z] info: 	[Andern] Loaded preset 'meta'
+[2024-05-29T03:03:34.934Z] info: 	[Andern] PMC Bot Inventory Generator registered
+[2024-05-29T03:03:35.080Z] info: 	Server: executing startup callbacks...
+[2024-05-29T03:03:35.081Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T03:03:35.081Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T03:03:35.081Z] debug: 	RAM: 63.78GB
+[2024-05-29T03:03:35.081Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T03:03:35.082Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T03:03:35.082Z] debug: 	Server: 3.8.3
+[2024-05-29T03:03:35.082Z] debug: 	Date: 1715594841109
+[2024-05-29T03:03:35.082Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T03:03:35.082Z] info: 	Importing database...
+[2024-05-29T03:03:36.954Z] info: 	Database import finished
+[2024-05-29T03:03:36.963Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-05-29T03:03:36.964Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-05-29T03:03:36.964Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-05-29T03:03:36.969Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-05-29T03:03:37.630Z] info: 	[Andern] Doe trader registered
+[2024-05-29T03:03:39.470Z] info: 	[Andern] Flea Market minimal user level set to 15
+[2024-05-29T03:03:39.474Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-05-29T03:03:39.474Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-05-29T03:03:39.474Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T03:03:44.504Z] debug: 	Saved 1 profiles, took: 7.91ms
+[2024-05-29T03:04:04.709Z] debug: 	Importing configs...
+[2024-05-29T03:04:04.727Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T03:04:04.728Z] info: 	Build date: 1715594841109
+[2024-05-29T03:04:04.740Z] info: 	ModLoader: loading 6 server mods...
+[2024-05-29T03:04:04.747Z] info: 	Mod: server version: 2.1.1 by: Fika loaded
+[2024-05-29T03:04:04.748Z] info: 	Mod: SVM version: 1.8.3 by: GhostFenixx loaded
+[2024-05-29T03:04:04.748Z] info: 	Mod: uifixes version: 1.6.0 by: Tyfon loaded
+[2024-05-29T03:04:04.748Z] info: 	Mod: NoDiscardLimit version: 1.4.0 by: Skwizzy loaded
+[2024-05-29T03:04:04.750Z] info: 	Mod: Andern version: 2.2.1 by: BarlogM loaded
+[2024-05-29T03:04:04.750Z] info: 	Mod: SAIN version: 2.2.6 by: zSolarint loaded
+[2024-05-29T03:04:04.790Z] info: 	[Andern] Map Info updater registered
+[2024-05-29T03:04:04.791Z] info: 	[Andern] PMC Bot Level Generator registered
+[2024-05-29T03:04:04.803Z] warn: 	[Andern] preset doesn't have tactical device './user/mods/BarlogM-Andern/presets/meta/one/AUG T1.json'
+[2024-05-29T03:04:04.807Z] info: 	[Andern] Loaded preset 'meta'
+[2024-05-29T03:04:04.807Z] info: 	[Andern] PMC Bot Inventory Generator registered
+[2024-05-29T03:04:04.822Z] info: 	Server: executing startup callbacks...
+[2024-05-29T03:04:04.822Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T03:04:04.823Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T03:04:04.823Z] debug: 	RAM: 63.78GB
+[2024-05-29T03:04:04.823Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T03:04:04.823Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T03:04:04.823Z] debug: 	Server: 3.8.3
+[2024-05-29T03:04:04.823Z] debug: 	Date: 1715594841109
+[2024-05-29T03:04:04.823Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T03:04:04.823Z] info: 	Importing database...
+[2024-05-29T03:04:06.647Z] info: 	Database import finished
+[2024-05-29T03:04:06.655Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-05-29T03:04:06.655Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-05-29T03:04:06.655Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-05-29T03:04:06.660Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-05-29T03:04:07.303Z] info: 	[Andern] Doe trader registered
+[2024-05-29T03:04:09.152Z] info: 	[Andern] Flea Market minimal user level set to 15
+[2024-05-29T03:04:09.156Z] succ: 	Started webserver at http://127.0.0.1:6969
+[2024-05-29T03:04:09.157Z] succ: 	Started websocket at ws://127.0.0.1:6969
+[2024-05-29T03:04:09.157Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T03:04:13.164Z] info: 	[Client Request] /launcher/server/connect
+[2024-05-29T03:04:13.175Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T03:04:13.176Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:13.178Z] info: 	[Client Request] /files/launcher/bg.png
+[2024-05-29T03:04:13.185Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T03:04:13.195Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:13.197Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T03:04:13.199Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:04:13.208Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:13.217Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2024-05-29T03:04:13.228Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2024-05-29T03:04:13.236Z] info: 	[Client Request] /files/launcher/side_usec.png
+[2024-05-29T03:04:13.237Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:13.238Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T03:04:13.239Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:04:13.240Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:14.174Z] debug: 	Saved 1 profiles, took: 8.57ms
+[2024-05-29T03:04:16.273Z] info: 	[Client Request] /launcher/profile/remove
+[2024-05-29T03:04:16.780Z] info: 	[Client Request] /launcher/server/connect
+[2024-05-29T03:04:16.781Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T03:04:16.782Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:16.783Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T03:04:16.784Z] info: 	[Client Request] /launcher/profiles
+[2024-05-29T03:04:20.612Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:27.256Z] info: 	[Client Request] /launcher/profile/register
+[2024-05-29T03:04:27.263Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:27.264Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T03:04:27.265Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:04:27.266Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:27.267Z] info: 	[Client Request] /launcher/server/loadedServerMods
+[2024-05-29T03:04:27.268Z] info: 	[Client Request] /launcher/server/serverModsUsedByProfile
+[2024-05-29T03:04:27.269Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:27.270Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T03:04:27.271Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:04:27.272Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:29.272Z] info: 	[Client Request] /launcher/profile/login
+[2024-05-29T03:04:29.273Z] info: 	[Client Request] /launcher/profile/get
+[2024-05-29T03:04:29.274Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:04:29.279Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:04:33.464Z] info: 	[Client Request] /singleplayer/airdrop/config
+[2024-05-29T03:04:33.496Z] info: 	[Client Request] /fika/client/config
+[2024-05-29T03:04:33.504Z] info: 	[Client Request] /singleplayer/settings/bot/difficulties/
+[2024-05-29T03:04:33.561Z] info: 	[Client Request] /singleplayer/settings/bot/difficulty/core/core
+[2024-05-29T03:04:34.212Z] debug: 	Saved 1 profiles, took: 6.19ms
+[2024-05-29T03:04:36.414Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-05-29T03:04:36.416Z] info: 	[Client Request] /singleplayer/release
+[2024-05-29T03:04:36.418Z] info: 	[Client Request] /singleplayer/enableBSGlogging
+[2024-05-29T03:04:36.720Z] info: 	[Client Request] /singleplayer/bundles
+[2024-05-29T03:04:40.535Z] info: 	[Client Request] /singleplayer/settings/version
+[2024-05-29T03:04:40.611Z] info: 	[Client Request] /client/game/start
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T03:04:40.612Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T03:04:40.613Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T03:04:40.662Z] info: 	[Client Request] /client/menu/locale/en
+[2024-05-29T03:04:40.726Z] info: 	[Client Request] /client/game/version/validate
+[2024-05-29T03:04:40.779Z] info: 	[Client Request] /client/languages
+[2024-05-29T03:04:40.818Z] info: 	[Client Request] /client/game/config
+[2024-05-29T03:04:41.542Z] info: 	[Client Request] /client/items
+[2024-05-29T03:04:45.569Z] info: 	[Client Request] /client/customization
+[2024-05-29T03:04:45.672Z] info: 	[Client Request] /client/globals
+[2024-05-29T03:04:46.085Z] info: 	[Client Request] /client/trading/api/traderSettings
+[2024-05-29T03:04:46.137Z] info: 	[Client Request] /client/settings
+[2024-05-29T03:04:46.187Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:04:46.253Z] info: 	[Client Request] /client/locale/en
+[2024-05-29T03:04:46.271Z] info: 	[Client Request] /client/account/customization
+[2024-05-29T03:04:46.472Z] info: 	[Client Request] /client/locale/ru
+[2024-05-29T03:04:46.809Z] info: 	[Client Request] /client/locale/ge
+[2024-05-29T03:04:47.059Z] info: 	[Client Request] /client/locale/fr
+[2024-05-29T03:04:54.221Z] debug: 	Saved 1 profiles, took: 0.08ms
+[2024-05-29T03:05:02.113Z] info: 	[Client Request] /client/game/profile/nickname/reserved
+[2024-05-29T03:05:02.662Z] info: 	[Client Request] /client/game/profile/nickname/validate
+[2024-05-29T03:05:14.257Z] debug: 	Saved 1 profiles, took: 0.06ms
+[2024-05-29T03:05:29.605Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:05:29.607Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:05:34.284Z] debug: 	Saved 1 profiles, took: 0.05ms
+[2024-05-29T03:05:39.833Z] info: 	[Client Request] /client/game/profile/create
+[2024-05-29T03:05:39.834Z] debug: 	Added wall improvement 639199277a9178252d38c98f to profile
+[2024-05-29T03:05:39.834Z] debug: 	Added wall improvement 639199277a9178252d38c990 to profile
+[2024-05-29T03:05:39.834Z] debug: 	Added wall improvement 639199277a9178252d38c991 to profile
+[2024-05-29T03:05:39.834Z] debug: 	Added wall improvement 639199277a9178252d38c992 to profile
+[2024-05-29T03:05:39.835Z] debug: 	Added missing gun stand inventory stash: 63db64cbf9963741dc0d741f tpl to 64381b6e44b37a080d0245b9
+[2024-05-29T03:05:39.835Z] debug: 	Added missing gun stand inventory secondary stash: 640b2d867f4185aa520d08ba tpl to 64381b6e44b37a080d0245b9
+[2024-05-29T03:05:39.835Z] debug: 	Added missing place of fame inventory stash: 5d494a295b56502f18c98a08 tpl to 6542435ea57eea37ed6562f0
+[2024-05-29T03:05:39.835Z] debug: 	unable to sort 17 slots, no slots found
+[2024-05-29T03:05:39.835Z] debug: 	unable to sort 4 slots, no slots found
+[2024-05-29T03:05:39.835Z] debug: 	unable to sort 20 slots, no slots found
+[2024-05-29T03:05:39.835Z] debug: 	unable to sort 6 slots, no slots found
+[2024-05-29T03:05:39.835Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-05-29T03:05:39.835Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-05-29T03:05:39.835Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-05-29T03:05:39.835Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-05-29T03:05:39.835Z] debug: 	Profile has level 1 area LAVATORY but no bonus found, adding UnlockArmorRepair
+[2024-05-29T03:05:39.835Z] debug: 	Adding bonus: UnlockArmorRepair to profile, value: 1
+[2024-05-29T03:05:39.835Z] debug: 	Profile has level 2 area LAVATORY but no bonus found, adding RepairArmorBonus
+[2024-05-29T03:05:39.835Z] debug: 	Adding bonus: RepairArmorBonus to profile, value: 3
+[2024-05-29T03:05:39.835Z] debug: 	Profile has level 3 area LAVATORY but no bonus found, adding RepairArmorBonus
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: RepairArmorBonus to profile, value: 6
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area GENERATOR but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 2
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 4
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 8
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area HEATING but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 12
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area HEATING but no bonus found, adding DebuffEndDelay
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: DebuffEndDelay to profile, value: -50
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 10
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 20
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding HydrationRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 30
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 1
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area WATER_COLLECTOR but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 6
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area MEDSTATION but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 12
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area MEDSTATION but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 20
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 10
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 20
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area NUTRITION_UNIT but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 7
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area NUTRITION_UNIT but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 30
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 3 area NUTRITION_UNIT but no bonus found, adding HydrationRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: HydrationRegeneration to profile, value: 20
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 1 area REST_SPACE but no bonus found, adding DebuffEndDelay
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: DebuffEndDelay to profile, value: -10
+[2024-05-29T03:05:39.836Z] debug: 	Profile has level 2 area REST_SPACE but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.836Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 5
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 2 area REST_SPACE but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 5
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 3 area REST_SPACE but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 10
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 3 area REST_SPACE but no bonus found, adding MaximumEnergyReserve
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: MaximumEnergyReserve to profile, value: 10
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding UnlockWeaponModification
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: UnlockWeaponModification to profile, value: 1
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 1 area WORKBENCH but no bonus found, adding UnlockWeaponRepair
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: UnlockWeaponRepair to profile, value: 1
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 2 area WORKBENCH but no bonus found, adding RepairWeaponBonus
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: RepairWeaponBonus to profile, value: 3
+[2024-05-29T03:05:39.837Z] debug: 	Profile has level 3 area WORKBENCH but no bonus found, adding RepairWeaponBonus
+[2024-05-29T03:05:39.837Z] debug: 	Adding bonus: RepairWeaponBonus to profile, value: 6
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area INTEL_CENTER but no bonus found, adding ScavCooldownTimer
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: ScavCooldownTimer to profile, value: -15
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area INTEL_CENTER but no bonus found, adding QuestMoneyReward
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: QuestMoneyReward to profile, value: 5
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area INTEL_CENTER but no bonus found, adding QuestMoneyReward
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: QuestMoneyReward to profile, value: 10
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area INTEL_CENTER but no bonus found, adding InsuranceReturnTime
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: InsuranceReturnTime to profile, value: -20
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area INTEL_CENTER but no bonus found, adding ScavCooldownTimer
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: ScavCooldownTimer to profile, value: -20
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area INTEL_CENTER but no bonus found, adding RagfairCommission
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: RagfairCommission to profile, value: -30
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area SHOOTING_RANGE but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area SHOOTING_RANGE but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 10
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area LIBRARY but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: ExperienceRate to profile, value: 15
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area LIBRARY but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 30
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area SCAV_CASE but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 3
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 6
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 12
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 12
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 10
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 24
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area PLACE_OF_FAME but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 24
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area AIR_FILTERING but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 40
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area AIR_FILTERING but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 3
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area SOLAR_POWER but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: FuelConsumption to profile, value: -50
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area BOOZE_GENERATOR but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 10
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 1 area BITCOIN_FARM but no bonus found, adding TextBonus
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: TextBonus to profile, value: 0
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 15
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 3 area BITCOIN_FARM but no bonus found, adding AdditionalSlots
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: AdditionalSlots to profile, value: 25
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.838Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T03:05:39.838Z] debug: 	Profile has level 2 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.839Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T03:05:39.839Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.839Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T03:05:39.839Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.839Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T03:05:39.839Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.839Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T03:05:39.839Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 3 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 4 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: FuelConsumption to profile, value: 5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: -5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: HealthRegeneration to profile, value: -5
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: ExperienceRate to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 5 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: -3
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding FuelConsumption
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: FuelConsumption to profile, value: -20
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding EnergyRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: EnergyRegeneration to profile, value: 20
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding HealthRegeneration
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: HealthRegeneration to profile, value: 20
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding ExperienceRate
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: ExperienceRate to profile, value: 12
+[2024-05-29T03:05:39.840Z] debug: 	Profile has level 6 area EMERGENCY_WALL but no bonus found, adding SkillGroupLevelingBoost
+[2024-05-29T03:05:39.840Z] debug: 	Adding bonus: SkillGroupLevelingBoost to profile, value: 12
+[2024-05-29T03:05:39.848Z] debug: 	generated player scav loadout with karma level 6
+[2024-05-29T03:05:39.951Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:05:40.100Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T03:05:40.154Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:05:40.210Z] info: 	[Client Request] /client/weather
+[2024-05-29T03:05:40.211Z] info: 	[Client Request] /client/locations
+[2024-05-29T03:05:40.212Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T03:05:40.786Z] info: 	[Client Request] /client/handbook/templates
+[2024-05-29T03:05:41.879Z] info: 	[Client Request] /client/hideout/areas
+[2024-05-29T03:05:41.970Z] info: 	[Client Request] /client/hideout/qte/list
+[2024-05-29T03:05:42.008Z] info: 	[Client Request] /client/hideout/settings
+[2024-05-29T03:05:42.058Z] info: 	[Client Request] /client/hideout/production/recipes
+[2024-05-29T03:05:42.142Z] info: 	[Client Request] /client/hideout/production/scavcase/recipes
+[2024-05-29T03:05:42.192Z] info: 	[Client Request] /client/builds/list
+[2024-05-29T03:05:43.636Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.636Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:05:43.638Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.638Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:05:43.640Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.640Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:05:43.644Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.644Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:05:43.648Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.648Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:05:43.652Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:05:43.652Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:05:44.144Z] info: 	[Client Request] /client/notifier/channel/create
+[2024-05-29T03:05:44.146Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:05:44.147Z] info: 	[Client Request] /client/trading/customization/storage
+[2024-05-29T03:05:44.194Z] info: 	[WS] Player: test (66569b3b0002686b44fdbe9e) has connected
+[2024-05-29T03:05:44.206Z] info: 	[Client Request] /client/server/list
+[2024-05-29T03:05:44.207Z] info: 	[Client Request] /client/match/group/current
+[2024-05-29T03:05:44.208Z] info: 	[Client Request] /client/friend/list
+[2024-05-29T03:05:44.214Z] info: 	[Client Request] /client/friend/request/list/inbox
+[2024-05-29T03:05:44.215Z] info: 	[Client Request] /client/friend/request/list/outbox
+[2024-05-29T03:05:44.215Z] info: 	[Client Request] /client/mail/dialog/list
+[2024-05-29T03:05:44.224Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T03:05:45.111Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T03:05:45.111Z] debug: 	Generating new Daily
+[2024-05-29T03:05:45.136Z] debug: 	Generating daily quest for 54cb50c76803fa8b248b4571 with budget 99672 for 4 items
+[2024-05-29T03:05:45.136Z] debug: 	  Added item 60b0f561c4449e4cb624c1d7 with price 50892
+[2024-05-29T03:05:45.137Z] debug: 	  Added item 5bc9be8fd4351e00334cae6e with price 55508
+[2024-05-29T03:05:45.137Z] debug: 	  Adding 0.03 trader reputation reward
+[2024-05-29T03:05:45.146Z] debug: 	Generating daily quest for 5ac3b934156ae10c4430e83c with budget 46743 for 2 items
+[2024-05-29T03:05:45.146Z] debug: 	  Added item 60a272cc93ef783291411d8e with price 30000
+[2024-05-29T03:05:45.146Z] debug: 	  Reward pool empty with 16743 remaining
+[2024-05-29T03:05:45.146Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-05-29T03:05:45.156Z] debug: 	Generating daily quest for 58330581ace78e27b8b10cee with budget 41762 for 1 items
+[2024-05-29T03:05:45.156Z] debug: 	  Added item 6389c6463485cf0eeb260715 with price 22300
+[2024-05-29T03:05:45.156Z] debug: 	  Reward pool empty with 19462 remaining
+[2024-05-29T03:05:45.156Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-05-29T03:05:45.156Z] debug: 	Generating new Weekly
+[2024-05-29T03:05:45.177Z] debug: 	Generating daily quest for 5c0647fdd443bc2504c2d371 with budget 653307 for 7 items
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 5d0376a486f7747d8050965c with price 40000
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 62a0a0bb621468534a797ad5 with price 35000
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 590de7e986f7741b096e5f32 with price 67800
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 60391a8b3364dc22b04d0ce5 with price 104000
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 59e35de086f7741778269d84 with price 32943
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 62a09cfe4f842e1bd12da3e4 with price 68000
+[2024-05-29T03:05:45.177Z] debug: 	  Added item 62a09d3bcf4a99369e262447 with price 80000
+[2024-05-29T03:05:45.177Z] debug: 	  Adding 0.07 trader reputation reward
+[2024-05-29T03:05:45.177Z] debug: 	Generating new Daily_Savage
+[2024-05-29T03:05:45.185Z] debug: 	Generating daily quest for 579dc571d53a0658a154fbec with budget 58253 for 2 items
+[2024-05-29T03:05:45.185Z] debug: 	  Added item 62a0a098de7ac8199358053b with price 33000
+[2024-05-29T03:05:45.185Z] debug: 	  Added item 62a0a043cf4a99369e2624a5 with price 25090
+[2024-05-29T03:05:45.185Z] debug: 	  Reward pool empty with 163 remaining
+[2024-05-29T03:05:45.185Z] debug: 	  Adding 0.02 trader reputation reward
+[2024-05-29T03:05:45.242Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T03:05:45.285Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T03:05:54.320Z] debug: 	Saved 1 profiles, took: 7.42ms
+[2024-05-29T03:06:14.354Z] debug: 	Saved 1 profiles, took: 7.46ms
+[2024-05-29T03:06:17.094Z] info: 	[Client Request] /client/checkVersion
+[2024-05-29T03:06:20.686Z] info: 	[Client Request] /singleplayer/settings/raid/menu
+[2024-05-29T03:06:21.427Z] info: 	[Client Request] /files/trader/avatar/59b91ca086f77469a81232e4.jpg
+[2024-05-29T03:06:21.441Z] info: 	[Client Request] /client/insurance/items/list/cost
+[2024-05-29T03:06:27.075Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:06:29.593Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:06:29.600Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:06:34.386Z] debug: 	Saved 1 profiles, took: 8.19ms
+[2024-05-29T03:06:37.084Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:06:47.076Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:06:47.386Z] info: 	[Client Request] /fika/location/raids
+[2024-05-29T03:06:49.117Z] info: 	[Client Request] /fika/raid/create
+[2024-05-29T03:06:49.118Z] debug: 	Generating data for: Woods, variant: 0
+[2024-05-29T03:06:49.134Z] debug: 	Added 57 guaranteed containers
+[2024-05-29T03:06:49.139Z] debug: 	createItem() No preset found for weapon: 62178be9d0050232da3485d9
+[2024-05-29T03:06:49.144Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:06:49.144Z] debug: 	Group: UsecCamp wants 14 containers but pool only has 12, add what's available
+[2024-05-29T03:06:49.154Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T03:06:49.160Z] debug: 	createItem() No preset found for weapon: 624c0b3340357b5f566e8766
+[2024-05-29T03:06:49.166Z] debug: 	Group:  has no containers with < 100% spawn chance to choose from, skipping
+[2024-05-29T03:06:49.166Z] succ: 	A total of 2199 static items spawned
+[2024-05-29T03:06:49.166Z] succ: 	A total of 232 static containers generated
+[2024-05-29T03:06:49.385Z] succ: 	A total of 967 dynamic items spawned
+[2024-05-29T03:06:49.385Z] succ: 	Generated location woods
+[2024-05-29T03:06:49.445Z] info: 	[Client Request] /client/match/group/exit_from_menu
+[2024-05-29T03:06:54.407Z] debug: 	Saved 1 profiles, took: 9.08ms
+[2024-05-29T03:06:58.606Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:07:00.975Z] info: 	[Client Request] /singleplayer/settings/getRaidTime
+[2024-05-29T03:07:00.988Z] info: 	[Client Request] /client/raid/configuration
+[2024-05-29T03:07:00.993Z] info: 	[Andern] raid info {"location":"woods","currentTime":"00:49:06","timeVariant":"PAST","isNight":false}
+[2024-05-29T03:07:01.039Z] info: 	[Client Request] /client/location/getLocalloot
+[2024-05-29T03:07:01.767Z] info: 	[Client Request] /fika/update/spawnpoint
+[2024-05-29T03:07:02.011Z] info: 	[Client Request] /fika/update/sethost
+[2024-05-29T03:07:02.168Z] info: 	[Client Request] /fika/update/playerspawn
+[2024-05-29T03:07:02.190Z] info: 	[Client Request] /fika/update/setstatus
+[2024-05-29T03:07:11.783Z] info: 	[Client Request] /singleplayer/settings/bot/maxCap
+[2024-05-29T03:07:11.791Z] info: 	[Client Request] /fika/update/setstatus
+[2024-05-29T03:07:12.094Z] info: 	[Client Request] /singleplayer/settings/bot/limit/assault
+[2024-05-29T03:07:12.096Z] info: 	[Client Request] /singleplayer/settings/bot/limit/marksman
+[2024-05-29T03:07:12.096Z] info: 	[Client Request] /singleplayer/settings/bot/limit/assault
+[2024-05-29T03:07:12.097Z] info: 	[Client Request] /singleplayer/settings/bot/limit/marksman
+[2024-05-29T03:07:12.098Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sptBear
+[2024-05-29T03:07:12.099Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sptUsec
+[2024-05-29T03:07:12.101Z] info: 	[Client Request] /singleplayer/settings/bot/limit/bossKnight
+[2024-05-29T03:07:12.102Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerBigPipe
+[2024-05-29T03:07:12.103Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerBirdEye
+[2024-05-29T03:07:12.104Z] info: 	[Client Request] /singleplayer/settings/bot/limit/bossKojaniy
+[2024-05-29T03:07:12.104Z] info: 	[Client Request] /singleplayer/settings/bot/limit/followerKojaniy
+[2024-05-29T03:07:12.105Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sectantPriest
+[2024-05-29T03:07:12.106Z] info: 	[Client Request] /singleplayer/settings/bot/limit/sectantWarrior
+[2024-05-29T03:07:12.107Z] info: 	[Client Request] /singleplayer/settings/bot/limit/arenaFighterEvent
+[2024-05-29T03:07:12.135Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:12.225Z] debug: 	No default: mod_stock mod found on template: weapon_colt_m4a1_556x45 and multiple items found in existing pool
+[2024-05-29T03:07:12.491Z] debug: 	Unable to add additional magazine into bot inventory for weapon: weapon_toz_sks_762x39, attempted: 1 times
+[2024-05-29T03:07:12.535Z] debug: 	Generated 50 assault () hard bots
+[2024-05-29T03:07:12.736Z] debug: 	Generated 30 marksman () normal bots
+[2024-05-29T03:07:12.898Z] debug: 	Unable to add additional magazine into bot inventory for weapon: weapon_toz_sks_762x39, attempted: 2 times
+[2024-05-29T03:07:12.914Z] debug: 	Failed to place item 3 of 4 items into assault containers: Pockets. Tried 4 times, reason: NO_SPACE, skipping
+[2024-05-29T03:07:13.081Z] debug: 	No default: mod_pistol_grip mod found on template: weapon_mossberg_590a1_12g and multiple items found in existing pool
+[2024-05-29T03:07:13.102Z] debug: 	Generated 50 assault () normal bots
+[2024-05-29T03:07:13.399Z] debug: 	Generated 30 marksman () hard bots
+[2024-05-29T03:07:13.505Z] debug: 	Generated 15 sptBear () normal bots
+[2024-05-29T03:07:13.573Z] debug: 	Generated 15 sptUsec () normal bots
+[2024-05-29T03:07:13.648Z] debug: 	Generated 5 bossKnight () normal bots
+[2024-05-29T03:07:13.780Z] debug: 	Generated 5 followerBigPipe () normal bots
+[2024-05-29T03:07:13.939Z] debug: 	Generated 5 followerBirdEye () normal bots
+[2024-05-29T03:07:14.042Z] debug: 	Generated 5 bossKojaniy () normal bots
+[2024-05-29T03:07:14.043Z] debug: 	Unable to add additional magazine into bot inventory for weapon: weapon_molot_op_sks_762x39, attempted: 2 times
+[2024-05-29T03:07:14.115Z] debug: 	Generated 5 followerKojaniy () normal bots
+[2024-05-29T03:07:14.259Z] debug: 	Generated 10 sectantPriest () normal bots
+[2024-05-29T03:07:14.371Z] debug: 	Generated 10 sectantWarrior () normal bots
+[2024-05-29T03:07:14.614Z] debug: 	Generated 15 arenaFighterEvent (arenaFighterEvent) normal bots
+[2024-05-29T03:07:14.614Z] debug: 	[WS] Pinging player: 66569b3b0002686b44fdbe9e
+[2024-05-29T03:07:14.614Z] debug: 	[WS] Socket lost, deleting handle
+[2024-05-29T03:07:14.622Z] debug: 	Saved 1 profiles, took: 7.45ms
+[2024-05-29T03:07:22.486Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:22.488Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:23.204Z] info: 	[Client Request] /singleplayer/scav/traitorscavhostile
+[2024-05-29T03:07:23.247Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:23.333Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:23.902Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:24.040Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:24.338Z] info: 	[Client Request] /singleplayer/settings/bot/getBotBehaviours/
+[2024-05-29T03:07:29.592Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:07:29.593Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:07:32.162Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.242Z] debug: 	Generated 15 sptUsec () hard bots
+[2024-05-29T03:07:32.243Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.244Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.244Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.245Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.245Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.245Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.246Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.367Z] debug: 	Failed to place item 3 of 4 items into assault containers: Pockets. Tried 4 times, reason: NO_SPACE, skipping
+[2024-05-29T03:07:32.830Z] debug: 	Generated 50 assault () easy bots
+[2024-05-29T03:07:32.831Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.831Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.832Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:32.832Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:33.261Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:33.926Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:34.641Z] debug: 	Saved 1 profiles, took: 1.64ms
+[2024-05-29T03:07:35.542Z] info: 	[Client Request] /fika/update/ping
+[2024-05-29T03:07:54.663Z] debug: 	Saved 1 profiles, took: 1.62ms
+[2024-05-29T03:07:57.178Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:07:57.179Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:08:05.572Z] info: 	[Client Request] /fika/update/ping
+[2024-05-29T03:08:14.704Z] debug: 	Saved 1 profiles, took: 8.04ms
+[2024-05-29T03:08:27.170Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:08:29.606Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:08:29.607Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:08:34.717Z] debug: 	Saved 1 profiles, took: 1.61ms
+[2024-05-29T03:08:36.681Z] info: 	[Client Request] /fika/update/ping
+[2024-05-29T03:08:42.187Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:08:42.189Z] info: 	[Client Request] /client/game/bot/generate
+[2024-05-29T03:08:54.754Z] debug: 	Saved 1 profiles, took: 1.89ms
+[2024-05-29T03:09:06.705Z] info: 	[Client Request] /fika/update/ping
+[2024-05-29T03:09:14.793Z] debug: 	Saved 1 profiles, took: 7.94ms
+[2024-05-29T03:09:29.596Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:09:29.598Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:09:34.818Z] debug: 	Saved 1 profiles, took: 2.90ms
+[2024-05-29T03:09:36.728Z] info: 	[Client Request] /fika/update/ping
+[2024-05-29T03:09:54.842Z] debug: 	Saved 1 profiles, took: 2.59ms
+[2024-05-29T03:10:02.714Z] info: 	[Client Request] /fika/raid/leave
+[2024-05-29T03:10:02.715Z] info: 	Coop session 66569b3b0002686b44fdbe9e has ended: host-shutdown
+[2024-05-29T03:10:03.763Z] info: 	[Client Request] /files/achievement/Standard_35_1.png
+[2024-05-29T03:10:03.840Z] info: 	[Client Request] /raid/profile/save
+[2024-05-29T03:10:03.843Z] debug: 	Raid outcome: killed
+[2024-05-29T03:10:03.846Z] debug: 	Updated quests values: (AvailableForStart: 353 times)
+[2024-05-29T03:10:03.846Z] debug: 	Updated statusTimers values: (AvailableForStart: 353 times)
+[2024-05-29T03:10:05.428Z] info: 	[Client Request] /client/match/offline/end
+[2024-05-29T03:10:05.951Z] info: 	[WS] Player: test (66569b3b0002686b44fdbe9e) has connected
+[2024-05-29T03:10:07.480Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:10:07.597Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T03:10:07.639Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:10:07.671Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T03:10:08.457Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T03:10:08.458Z] debug: 	[Quest Check] Daily quests are still valid.
+[2024-05-29T03:10:08.458Z] debug: 	[Quest Check] Weekly quests are still valid.
+[2024-05-29T03:10:08.458Z] debug: 	[Quest Check] Daily_Savage quests are still valid.
+[2024-05-29T03:10:08.490Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T03:10:08.532Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T03:10:12.329Z] info: 	[Client Request] /client/game/profile/items/moving
+[2024-05-29T03:10:12.330Z] debug: 	event: RestoreHealth
+[2024-05-29T03:10:12.330Z] debug: 	Item(s) taken. Status OK.
+[2024-05-29T03:10:14.897Z] debug: 	Saved 1 profiles, took: 8.55ms
+[2024-05-29T03:10:15.120Z] info: 	[Client Request] /client/items
+[2024-05-29T03:10:18.297Z] info: 	[Client Request] /client/customization
+[2024-05-29T03:10:18.414Z] info: 	[Client Request] /client/globals
+[2024-05-29T03:10:18.648Z] info: 	[Client Request] /client/trading/api/traderSettings
+[2024-05-29T03:10:18.712Z] info: 	[Client Request] /client/settings
+[2024-05-29T03:10:18.785Z] info: 	[Client Request] /client/game/profile/list
+[2024-05-29T03:10:18.905Z] info: 	[Client Request] /client/game/profile/select
+[2024-05-29T03:10:18.967Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:10:19.018Z] info: 	[Client Request] /client/locations
+[2024-05-29T03:10:19.019Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T03:10:19.029Z] info: 	[Client Request] /client/weather
+[2024-05-29T03:10:19.519Z] info: 	[Client Request] /client/handbook/templates
+[2024-05-29T03:10:21.432Z] info: 	[Client Request] /client/hideout/areas
+[2024-05-29T03:10:21.506Z] info: 	[Client Request] /client/hideout/qte/list
+[2024-05-29T03:10:21.577Z] info: 	[Client Request] /client/hideout/settings
+[2024-05-29T03:10:21.649Z] info: 	[Client Request] /client/hideout/production/recipes
+[2024-05-29T03:10:21.744Z] info: 	[Client Request] /client/hideout/production/scavcase/recipes
+[2024-05-29T03:10:21.817Z] info: 	[Client Request] /client/builds/list
+[2024-05-29T03:10:22.980Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.980Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:10:22.982Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.982Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:10:22.984Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.984Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:10:22.988Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.988Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T03:10:22.990Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.990Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T03:10:22.992Z] info: 	[Client Request] /singleplayer/log
+[2024-05-29T03:10:22.992Z] debug: 	[Aki.Core] 0
+[2024-05-29T03:10:23.687Z] info: 	[Client Request] /client/trading/customization/storage
+[2024-05-29T03:10:23.687Z] info: 	[Client Request] /client/profile/status
+[2024-05-29T03:10:23.697Z] info: 	[Client Request] /client/notifier/channel/create
+[2024-05-29T03:10:23.738Z] info: 	[WS] Player: test (66569b3b0002686b44fdbe9e) has connected
+[2024-05-29T03:10:23.738Z] info: 	[Client Request] /client/match/group/current
+[2024-05-29T03:10:23.739Z] info: 	[Client Request] /client/server/list
+[2024-05-29T03:10:23.740Z] info: 	[Client Request] /client/mail/dialog/list
+[2024-05-29T03:10:23.740Z] info: 	[Client Request] /client/friend/request/list/outbox
+[2024-05-29T03:10:23.741Z] info: 	[Client Request] /client/friend/request/list/inbox
+[2024-05-29T03:10:23.741Z] info: 	[Client Request] /client/quest/list
+[2024-05-29T03:10:23.750Z] info: 	[Client Request] /client/friend/list
+[2024-05-29T03:10:24.548Z] info: 	[Client Request] /client/repeatalbeQuests/activityPeriods
+[2024-05-29T03:10:24.548Z] debug: 	[Quest Check] Daily quests are still valid.
+[2024-05-29T03:10:24.548Z] debug: 	[Quest Check] Weekly quests are still valid.
+[2024-05-29T03:10:24.548Z] debug: 	[Quest Check] Daily_Savage quests are still valid.
+[2024-05-29T03:10:24.600Z] info: 	[Client Request] /client/achievement/statistic
+[2024-05-29T03:10:24.661Z] info: 	[Client Request] /client/achievement/list
+[2024-05-29T03:10:29.607Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:10:29.617Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:10:34.910Z] debug: 	Saved 1 profiles, took: 8.76ms
+[2024-05-29T03:10:54.930Z] debug: 	Saved 1 profiles, took: 7.67ms
+[2024-05-29T03:11:14.976Z] debug: 	Saved 1 profiles, took: 8.20ms
+[2024-05-29T03:11:29.597Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:11:29.600Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:11:35.070Z] debug: 	Saved 1 profiles, took: 8.76ms
+[2024-05-29T03:11:53.740Z] debug: 	[WS] Pinging player: 66569b3b0002686b44fdbe9e
+[2024-05-29T03:11:55.075Z] debug: 	Saved 1 profiles, took: 43.21ms
+[2024-05-29T03:12:15.076Z] debug: 	Saved 1 profiles, took: 7.73ms
+[2024-05-29T03:12:29.600Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:12:29.601Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:12:35.102Z] debug: 	Saved 1 profiles, took: 7.95ms
+[2024-05-29T03:12:44.708Z] info: 	[Client Request] /client/game/keepalive
+[2024-05-29T03:12:55.114Z] debug: 	Saved 1 profiles, took: 9.00ms
+[2024-05-29T03:13:15.161Z] debug: 	Saved 1 profiles, took: 7.82ms
+[2024-05-29T03:13:23.740Z] debug: 	[WS] Pinging player: 66569b3b0002686b44fdbe9e
+[2024-05-29T03:13:29.599Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:13:29.600Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:13:35.210Z] debug: 	Saved 1 profiles, took: 8.66ms
+[2024-05-29T03:13:55.237Z] debug: 	Saved 1 profiles, took: 8.27ms
+[2024-05-29T03:14:15.270Z] debug: 	Saved 1 profiles, took: 8.06ms
+[2024-05-29T03:14:29.601Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:14:29.603Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:14:35.338Z] debug: 	Saved 1 profiles, took: 8.02ms
+[2024-05-29T03:14:47.708Z] info: 	[Client Request] /client/checkVersion
+[2024-05-29T03:14:53.741Z] debug: 	[WS] Pinging player: 66569b3b0002686b44fdbe9e
+[2024-05-29T03:14:54.187Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:14:55.303Z] debug: 	Saved 1 profiles, took: 8.11ms
+[2024-05-29T03:15:04.193Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:14.178Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:15.334Z] debug: 	Saved 1 profiles, took: 8.41ms
+[2024-05-29T03:15:24.183Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:29.597Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:15:29.599Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:15:34.183Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:35.357Z] debug: 	Saved 1 profiles, took: 8.55ms
+[2024-05-29T03:15:44.185Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:54.183Z] info: 	[Client Request] /player/health/sync
+[2024-05-29T03:15:55.407Z] debug: 	Saved 1 profiles, took: 8.71ms
+[2024-05-29T03:16:15.632Z] debug: 	Saved 1 profiles, took: 8.43ms
+[2024-05-29T03:16:23.741Z] debug: 	[WS] Pinging player: 66569b3b0002686b44fdbe9e
+[2024-05-29T03:16:29.601Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:16:29.609Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:16:35.479Z] debug: 	Saved 1 profiles, took: 8.36ms
+[2024-05-29T03:16:55.508Z] debug: 	Saved 1 profiles, took: 7.80ms
+[2024-05-29T03:17:07.770Z] info: 	[Client Request] /client/game/keepalive
+[2024-05-29T03:17:15.536Z] debug: 	Saved 1 profiles, took: 7.81ms
+[2024-05-29T03:17:29.599Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:17:29.600Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:17:33.134Z] info: 	[Client Request] /client/game/logout
+[2024-05-29T03:17:33.143Z] debug: 	Saved 1 profiles, took: 8.61ms
+[2024-05-29T03:17:35.571Z] debug: 	Saved 1 profiles, took: 2.01ms
+[2024-05-29T03:17:35.593Z] info: 	[Client Request] /launcher/profile/info
+[2024-05-29T03:17:35.594Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:17:40.668Z] info: 	[Client Request] /launcher/profile/remove
+[2024-05-29T03:17:41.186Z] info: 	[Client Request] /launcher/server/connect
+[2024-05-29T03:17:41.187Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T03:17:41.188Z] info: 	[Client Request] /launcher/server/version
+[2024-05-29T03:17:41.191Z] info: 	[Client Request] /launcher/profiles
+[2024-05-29T03:17:41.191Z] info: 	[Client Request] /launcher/ping
+[2024-05-29T04:36:37.578Z] debug: 	Importing configs...
+[2024-05-29T04:36:37.596Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T04:36:37.596Z] info: 	Build date: 1715594841109
+[2024-05-29T04:36:37.608Z] info: 	ModLoader: loading 6 server mods...
+[2024-05-29T04:36:37.616Z] info: 	Mod: server version: 2.1.1 by: Fika loaded
+[2024-05-29T04:36:37.616Z] info: 	Mod: SVM version: 1.8.3 by: GhostFenixx loaded
+[2024-05-29T04:36:37.617Z] info: 	Mod: uifixes version: 1.6.0 by: Tyfon loaded
+[2024-05-29T04:36:37.617Z] info: 	Mod: NoDiscardLimit version: 1.4.0 by: Skwizzy loaded
+[2024-05-29T04:36:37.619Z] info: 	Mod: Andern version: 2.2.1 by: BarlogM loaded
+[2024-05-29T04:36:37.619Z] info: 	Mod: SAIN version: 2.2.6 by: zSolarint loaded
+[2024-05-29T04:36:37.660Z] info: 	[Andern] Map Info updater registered
+[2024-05-29T04:36:37.661Z] info: 	[Andern] PMC Bot Level Generator registered
+[2024-05-29T04:36:37.673Z] warn: 	[Andern] preset doesn't have tactical device './user/mods/BarlogM-Andern/presets/meta/one/AUG T1.json'
+[2024-05-29T04:36:37.677Z] info: 	[Andern] Loaded preset 'meta'
+[2024-05-29T04:36:37.677Z] info: 	[Andern] PMC Bot Inventory Generator registered
+[2024-05-29T04:36:37.692Z] info: 	Server: executing startup callbacks...
+[2024-05-29T04:36:37.692Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T04:36:37.693Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T04:36:37.693Z] debug: 	RAM: 63.78GB
+[2024-05-29T04:36:37.693Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T04:36:37.693Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T04:36:37.693Z] debug: 	Server: 3.8.3
+[2024-05-29T04:36:37.693Z] debug: 	Date: 1715594841109
+[2024-05-29T04:36:37.693Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T04:36:37.693Z] info: 	Importing database...
+[2024-05-29T04:36:39.550Z] info: 	Database import finished
+[2024-05-29T04:36:39.560Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-05-29T04:36:39.560Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-05-29T04:36:39.561Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-05-29T04:36:39.566Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-05-29T04:36:40.231Z] info: 	[Andern] Doe trader registered
+[2024-05-29T04:36:42.092Z] info: 	[Andern] Flea Market minimal user level set to 15
+[2024-05-29T04:36:42.098Z] succ: 	Started webserver at http://24.11.44.86:6969
+[2024-05-29T04:36:42.098Z] succ: 	Started websocket at ws://24.11.44.86:6969
+[2024-05-29T04:36:42.099Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T04:36:47.108Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T04:36:49.586Z] info: 	[Client Request] 64.19.88.210 \launcher\server\connect
+[2024-05-29T04:36:49.775Z] info: 	[Client Request] 64.19.88.210 \launcher\ping
+[2024-05-29T04:36:49.935Z] info: 	[Client Request] 64.19.88.210 \launcher\server\version
+[2024-05-29T04:36:50.096Z] info: 	[Client Request] 64.19.88.210 \files\launcher\bg.png
+[2024-05-29T04:36:51.006Z] info: 	[Client Request] 64.19.88.210 \launcher\ping
+[2024-05-29T04:36:51.011Z] info: 	[Client Request] 64.19.88.210 \launcher\profiles
+[2024-05-29T05:28:53.199Z] debug: 	Importing configs...
+[2024-05-29T05:28:53.217Z] info: 	Commit hash: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T05:28:53.217Z] info: 	Build date: 1715594841109
+[2024-05-29T05:28:53.230Z] info: 	ModLoader: loading 6 server mods...
+[2024-05-29T05:28:53.238Z] info: 	Mod: server version: 2.1.1 by: Fika loaded
+[2024-05-29T05:28:53.239Z] info: 	Mod: SVM version: 1.8.3 by: GhostFenixx loaded
+[2024-05-29T05:28:53.239Z] info: 	Mod: uifixes version: 1.6.0 by: Tyfon loaded
+[2024-05-29T05:28:53.239Z] info: 	Mod: NoDiscardLimit version: 1.4.0 by: Skwizzy loaded
+[2024-05-29T05:28:53.241Z] info: 	Mod: Andern version: 2.2.1 by: BarlogM loaded
+[2024-05-29T05:28:53.241Z] info: 	Mod: SAIN version: 2.2.6 by: zSolarint loaded
+[2024-05-29T05:28:53.285Z] info: 	[Andern] Map Info updater registered
+[2024-05-29T05:28:53.286Z] info: 	[Andern] PMC Bot Level Generator registered
+[2024-05-29T05:28:53.299Z] warn: 	[Andern] preset doesn't have tactical device './user/mods/BarlogM-Andern/presets/meta/one/AUG T1.json'
+[2024-05-29T05:28:53.303Z] info: 	[Andern] Loaded preset 'meta'
+[2024-05-29T05:28:53.304Z] info: 	[Andern] PMC Bot Inventory Generator registered
+[2024-05-29T05:28:53.318Z] info: 	Server: executing startup callbacks...
+[2024-05-29T05:28:53.319Z] debug: 	OS: x64 | Windows 11 Pro | win32
+[2024-05-29T05:28:53.319Z] debug: 	CPU: 13th Gen Intel(R) Core(TM) i9-13900K cores: 32
+[2024-05-29T05:28:53.319Z] debug: 	RAM: 63.78GB
+[2024-05-29T05:28:53.319Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T05:28:53.319Z] debug: 	PATH: RDpcTVBUXEFraS5TZXJ2ZXIuZXhl
+[2024-05-29T05:28:53.319Z] debug: 	Server: 3.8.3
+[2024-05-29T05:28:53.319Z] debug: 	Date: 1715594841109
+[2024-05-29T05:28:53.319Z] debug: 	Commit: 01783e295be916352ccb1078cf8351b273610c8e
+[2024-05-29T05:28:53.320Z] info: 	Importing database...
+[2024-05-29T05:28:55.212Z] info: 	Database import finished
+[2024-05-29T05:28:55.222Z] info: 	[NoDiscardLimit] Removing loot from usec
+[2024-05-29T05:28:55.222Z] info: 	[NoDiscardLimit] Removing loot from bear
+[2024-05-29T05:28:55.222Z] info: 	[NoDiscardLimit] Marking items with DiscardLimits as InsuranceDisabled
+[2024-05-29T05:28:55.227Z] info: 	[NoDiscardLimit] Global config DiscardLimitsEnabled set to false
+[2024-05-29T05:28:55.896Z] info: 	[Andern] Doe trader registered
+[2024-05-29T05:28:57.840Z] info: 	[Andern] Flea Market minimal user level set to 15
+[2024-05-29T05:28:57.845Z] succ: 	Started webserver at http://24.11.44.86:6969
+[2024-05-29T05:28:57.845Z] succ: 	Started websocket at ws://24.11.44.86:6969
+[2024-05-29T05:28:57.845Z] succ: 	Server is running, do not close while playing SPT, Happy playing!!
+[2024-05-29T05:29:02.868Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T05:29:13.734Z] info: 	[Client Request] 67.149.148.201 \launcher\server\connect
+[2024-05-29T05:29:13.891Z] info: 	[Client Request] 67.149.148.201 \launcher\ping
+[2024-05-29T05:29:14.042Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:29:14.195Z] info: 	[Client Request] 67.149.148.201 \files\launcher\bg.png
+[2024-05-29T05:29:14.780Z] info: 	[Client Request] 67.149.148.201 \launcher\profiles
+[2024-05-29T05:29:14.781Z] info: 	[Client Request] 67.149.148.201 \launcher\ping
+[2024-05-29T05:29:22.907Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T05:29:42.951Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T05:29:47.246Z] info: 	[Client Request] 67.149.148.201 \launcher\ping
+[2024-05-29T05:30:01.147Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\login
+[2024-05-29T05:30:02.984Z] debug: 	Saved 0 profiles, took: 0.00ms
+[2024-05-29T05:30:09.907Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\register
+[2024-05-29T05:30:10.064Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\login
+[2024-05-29T05:30:10.243Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\get
+[2024-05-29T05:30:10.398Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:30:10.545Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:30:10.693Z] info: 	[Client Request] 67.149.148.201 \launcher\server\loadedServerMods
+[2024-05-29T05:30:10.845Z] info: 	[Client Request] 67.149.148.201 \launcher\server\serverModsUsedByProfile
+[2024-05-29T05:30:10.986Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\login
+[2024-05-29T05:30:11.137Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\get
+[2024-05-29T05:30:11.279Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:30:11.430Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:30:15.120Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\login
+[2024-05-29T05:30:15.277Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\get
+[2024-05-29T05:30:15.428Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:30:15.581Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:30:23.027Z] debug: 	Saved 1 profiles, took: 6.33ms
+[2024-05-29T05:30:24.048Z] info: 	[Client Request] 67.149.148.201 \singleplayer\airdrop\config
+[2024-05-29T05:30:24.247Z] info: 	[Client Request] 67.149.148.201 \fika\client\config
+[2024-05-29T05:30:24.330Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\difficulties\
+[2024-05-29T05:30:24.619Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\difficulty\core\core
+[2024-05-29T05:30:30.533Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\version
+[2024-05-29T05:30:30.604Z] info: 	[Client Request] 67.149.148.201 \singleplayer\release
+[2024-05-29T05:30:30.681Z] info: 	[Client Request] 67.149.148.201 \singleplayer\enableBSGlogging
+[2024-05-29T05:30:31.279Z] info: 	[Client Request] 67.149.148.201 \singleplayer\bundles
+[2024-05-29T05:30:36.770Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\version
+[2024-05-29T05:30:37.046Z] info: 	[Client Request] 67.149.148.201 \client\game\start
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to factory4_day of type sptBear, time: -1, chance: 25, zone: BotZone
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to factory4_day of type sptUsec, time: -1, chance: 25, zone: BotZone
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to bigmap of type sptBear, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to bigmap of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneScavBase2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneRoad
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptBear, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to woods of type sptUsec, time: -1, chance: 25, zone: ZoneClearVill
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 20, zone: ZonePort
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium1
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptUsec, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to shoreline of type sptBear, time: -1, chance: 10, zone: ZoneSanatorium2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptBear, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor1
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneFloor2
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to laboratory of type sptUsec, time: -1, chance: 30, zone: BotZoneBasement
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to interchange of type sptBear, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to interchange of type sptUsec, time: -1, chance: 15, zone: ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneGoshan,ZonePowerStation
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to lighthouse of type sptBear, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to lighthouse of type sptUsec, time: -1, chance: 15, zone: Zone_Village,Zone_Chalet,Zone_DestroyedHouse,Zone_Rocks,Zone_OldHouse
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to rezervbase of type sptBear, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to rezervbase of type sptUsec, time: -1, chance: 15, zone: ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to sandbox of type sptBear, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T05:30:37.047Z] debug: 	Added custom boss wave to sandbox of type sptUsec, time: -1, chance: 30, zone: ZoneSandbox
+[2024-05-29T05:30:37.166Z] info: 	[Client Request] 67.149.148.201 \client\menu\locale\en
+[2024-05-29T05:30:37.292Z] info: 	[Client Request] 67.149.148.201 \client\game\version\validate
+[2024-05-29T05:30:37.410Z] info: 	[Client Request] 67.149.148.201 \client\languages
+[2024-05-29T05:30:37.545Z] info: 	[Client Request] 67.149.148.201 \client\game\config
+[2024-05-29T05:30:39.127Z] info: 	[Client Request] 67.149.148.201 \client\items
+[2024-05-29T05:30:43.069Z] debug: 	Saved 1 profiles, took: 0.12ms
+[2024-05-29T05:30:47.435Z] info: 	[Client Request] 67.149.148.201 \client\customization
+[2024-05-29T05:30:47.744Z] info: 	[Client Request] 67.149.148.201 \client\globals
+[2024-05-29T05:30:48.598Z] info: 	[Client Request] 67.149.148.201 \client\trading\api\traderSettings
+[2024-05-29T05:30:48.732Z] info: 	[Client Request] 67.149.148.201 \client\settings
+[2024-05-29T05:30:48.853Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\list
+[2024-05-29T05:30:48.990Z] info: 	[Client Request] 67.149.148.201 \client\locale\en
+[2024-05-29T05:30:49.075Z] info: 	[Client Request] 67.149.148.201 \client\account\customization
+[2024-05-29T05:30:49.729Z] info: 	[Client Request] 67.149.148.201 \client\locale\ru
+[2024-05-29T05:30:50.441Z] info: 	[Client Request] 67.149.148.201 \client\locale\ge
+[2024-05-29T05:30:51.186Z] info: 	[Client Request] 67.149.148.201 \client\locale\fr
+[2024-05-29T05:30:52.703Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\nickname\reserved
+[2024-05-29T05:30:57.564Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\nickname\validate
+[2024-05-29T05:31:03.097Z] debug: 	Saved 1 profiles, took: 0.07ms
+[2024-05-29T05:31:16.302Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:31:16.442Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:31:18.792Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\create
+[2024-05-29T05:31:18.810Z] debug: 	unable to sort 17 slots, no slots found
+[2024-05-29T05:31:18.810Z] debug: 	unable to sort 4 slots, no slots found
+[2024-05-29T05:31:18.810Z] debug: 	unable to sort 20 slots, no slots found
+[2024-05-29T05:31:18.810Z] debug: 	unable to sort 6 slots, no slots found
+[2024-05-29T05:31:18.810Z] debug: 	Updating generator area slots to a size of 6 + hideout management skill
+[2024-05-29T05:31:18.810Z] debug: 	Updating water collector area slots to a size of 1 + hideout management skill
+[2024-05-29T05:31:18.810Z] debug: 	Updating air filter area slots to a size of 3 + hideout management skill
+[2024-05-29T05:31:18.810Z] debug: 	Updating bitcoin farm area slots to a size of 50 + hideout management skill
+[2024-05-29T05:31:18.813Z] debug: 	generated player scav loadout with karma level 0
+[2024-05-29T05:31:18.992Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\list
+[2024-05-29T05:31:19.302Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\select
+[2024-05-29T05:31:19.413Z] info: 	[Client Request] 67.149.148.201 \client\profile\status
+[2024-05-29T05:31:19.534Z] info: 	[Client Request] 67.149.148.201 \client\weather
+[2024-05-29T05:31:19.618Z] info: 	[Client Request] 67.149.148.201 \client\locations
+[2024-05-29T05:31:19.618Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T05:31:20.885Z] info: 	[Client Request] 67.149.148.201 \client\handbook\templates
+[2024-05-29T05:31:22.809Z] info: 	[Client Request] 67.149.148.201 \client\hideout\areas
+[2024-05-29T05:31:23.044Z] info: 	[Client Request] 67.149.148.201 \client\hideout\qte\list
+[2024-05-29T05:31:23.134Z] debug: 	Saved 1 profiles, took: 0.62ms
+[2024-05-29T05:31:23.151Z] info: 	[Client Request] 67.149.148.201 \client\hideout\settings
+[2024-05-29T05:31:23.267Z] info: 	[Client Request] 67.149.148.201 \client\hideout\production\recipes
+[2024-05-29T05:31:23.468Z] info: 	[Client Request] 67.149.148.201 \client\hideout\production\scavcase\recipes
+[2024-05-29T05:31:23.587Z] info: 	[Client Request] 67.149.148.201 \client\builds\list
+[2024-05-29T05:31:25.820Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:25.821Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T05:31:25.894Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:25.894Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T05:31:25.967Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:25.967Z] debug: 	[Aki.Core] 0
+[2024-05-29T05:31:26.035Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:26.040Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T05:31:26.116Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:26.116Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T05:31:26.186Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:31:26.187Z] debug: 	[Aki.Core] 0
+[2024-05-29T05:31:27.147Z] info: 	[Client Request] 67.149.148.201 \client\notifier\channel\create
+[2024-05-29T05:31:27.230Z] info: 	[Client Request] 67.149.148.201 \client\profile\status
+[2024-05-29T05:31:27.237Z] info: 	[Client Request] 67.149.148.201 \client\trading\customization\storage
+[2024-05-29T05:31:27.346Z] info: 	[WS] Player: matt_03 (6656bd61000353901747196e) has connected
+[2024-05-29T05:31:27.383Z] info: 	[Client Request] 67.149.148.201 \client\server\list
+[2024-05-29T05:31:27.396Z] info: 	[Client Request] 67.149.148.201 \client\match\group\current
+[2024-05-29T05:31:27.396Z] info: 	[Client Request] 67.149.148.201 \client\friend\list
+[2024-05-29T05:31:27.467Z] info: 	[Client Request] 67.149.148.201 \client\friend\request\list\inbox
+[2024-05-29T05:31:27.468Z] info: 	[Client Request] 67.149.148.201 \client\quest\list
+[2024-05-29T05:31:27.471Z] info: 	[Client Request] 67.149.148.201 \client\mail\dialog\list
+[2024-05-29T05:31:27.496Z] info: 	[Client Request] 67.149.148.201 \client\friend\request\list\outbox
+[2024-05-29T05:31:27.665Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:31:27.797Z] info: 	[Client Request] 67.149.148.201 \client\achievement\statistic
+[2024-05-29T05:31:27.930Z] info: 	[Client Request] 67.149.148.201 \client\achievement\list
+[2024-05-29T05:31:43.177Z] debug: 	Saved 1 profiles, took: 7.05ms
+[2024-05-29T05:31:57.904Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:32:03.221Z] debug: 	Saved 1 profiles, took: 7.89ms
+[2024-05-29T05:32:16.305Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:32:16.456Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:32:16.604Z] info: 	[Client Request] 67.149.148.201 \files\launcher\side_usec.png
+[2024-05-29T05:32:16.830Z] info: 	[Client Request] 67.149.148.201 \client\checkVersion
+[2024-05-29T05:32:23.251Z] debug: 	Saved 1 profiles, took: 7.18ms
+[2024-05-29T05:32:26.791Z] info: 	[Client Request] 67.149.148.201 \player\health\sync
+[2024-05-29T05:32:28.092Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:32:36.904Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\raid\menu
+[2024-05-29T05:32:41.063Z] info: 	[Client Request] 67.149.148.201 \files\trader\avatar\59b91ca086f77469a81232e4.jpg
+[2024-05-29T05:32:41.098Z] info: 	[Client Request] 67.149.148.201 \client\insurance\items\list\cost
+[2024-05-29T05:32:43.285Z] debug: 	Saved 1 profiles, took: 8.72ms
+[2024-05-29T05:32:51.118Z] info: 	[Client Request] 67.149.148.201 \fika\location\raids
+[2024-05-29T05:32:52.497Z] info: 	[Client Request] 67.149.148.201 \client\match\group\exit_from_menu
+[2024-05-29T05:32:57.355Z] debug: 	[WS] Pinging player: 6656bd61000353901747196e
+[2024-05-29T05:32:58.376Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:33:02.364Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\items\moving
+[2024-05-29T05:33:02.364Z] debug: 	event: Insure
+[2024-05-29T05:33:02.365Z] debug: 	Item(s) taken. Status OK.
+[2024-05-29T05:33:03.320Z] debug: 	Saved 1 profiles, took: 7.25ms
+[2024-05-29T05:33:04.360Z] info: 	[Client Request] 67.149.148.201 \fika\location\raids
+[2024-05-29T05:33:11.255Z] info: 	[Client Request] 67.149.148.201 \fika\raid\create
+[2024-05-29T05:33:11.255Z] debug: 	Generating data for: factory4_day, variant: 0
+[2024-05-29T05:33:11.260Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T05:33:11.267Z] debug: 	Added 23 guaranteed containers
+[2024-05-29T05:33:11.272Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T05:33:11.276Z] debug: 	createItem() No preset found for weapon: 6217726288ed9f0845317459
+[2024-05-29T05:33:11.280Z] debug: 	createItem() No preset found for weapon: 624c0b3340357b5f566e8766
+[2024-05-29T05:33:11.280Z] debug: 	Group:  has no containers with < 100% spawn chance to choose from, skipping
+[2024-05-29T05:33:11.281Z] succ: 	A total of 339 static items spawned
+[2024-05-29T05:33:11.282Z] succ: 	A total of 45 static containers generated
+[2024-05-29T05:33:11.328Z] succ: 	A total of 74 dynamic items spawned
+[2024-05-29T05:33:11.328Z] succ: 	Generated location factory4_day
+[2024-05-29T05:33:11.548Z] info: 	[Client Request] 67.149.148.201 \client\match\group\exit_from_menu
+[2024-05-29T05:33:16.297Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:33:16.446Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:33:17.248Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\getRaidTime
+[2024-05-29T05:33:17.398Z] info: 	[Client Request] 67.149.148.201 \client\raid\configuration
+[2024-05-29T05:33:17.400Z] info: 	[Andern] raid info {"location":"factory4_day","currentTime":"17:53:01","timeVariant":"CURR","isNight":false}
+[2024-05-29T05:33:17.526Z] info: 	[Client Request] 67.149.148.201 \client\location\getLocalloot
+[2024-05-29T05:33:17.986Z] info: 	[Client Request] 67.149.148.201 \fika\update\spawnpoint
+[2024-05-29T05:33:18.761Z] info: 	[Client Request] 67.149.148.201 \fika\update\sethost
+[2024-05-29T05:33:18.942Z] info: 	[Client Request] 67.149.148.201 \fika\update\playerspawn
+[2024-05-29T05:33:19.170Z] info: 	[Client Request] 67.149.148.201 \fika\update\setstatus
+[2024-05-29T05:33:23.336Z] debug: 	Saved 1 profiles, took: 6.38ms
+[2024-05-29T05:33:24.395Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\maxCap
+[2024-05-29T05:33:24.543Z] info: 	[Client Request] 67.149.148.201 \fika\update\setstatus
+[2024-05-29T05:33:24.831Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\limit\marksman
+[2024-05-29T05:33:24.900Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\limit\assault
+[2024-05-29T05:33:24.967Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\limit\sptBear
+[2024-05-29T05:33:25.034Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\limit\sptUsec
+[2024-05-29T05:33:25.107Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\limit\bossTagilla
+[2024-05-29T05:33:25.391Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:33:25.738Z] debug: 	Generated 30 marksman () easy bots
+[2024-05-29T05:33:26.003Z] debug: 	Unable to add additional magazine into bot inventory for weapon: weapon_toz_sks_762x39, attempted: 2 times
+[2024-05-29T05:33:26.177Z] debug: 	No default: mod_stock mod found on template: weapon_colt_m4a1_556x45 and multiple items found in existing pool
+[2024-05-29T05:33:26.340Z] debug: 	Unable to add additional magazine into bot inventory for weapon: weapon_toz_sks_762x39, attempted: 1 times
+[2024-05-29T05:33:26.381Z] debug: 	No default: mod_pistol_grip mod found on template: weapon_mossberg_590a1_12g and multiple items found in existing pool
+[2024-05-29T05:33:26.498Z] debug: 	Generated 50 assault () normal bots
+[2024-05-29T05:33:26.840Z] debug: 	Generated 15 sptBear () normal bots
+[2024-05-29T05:33:26.947Z] debug: 	Generated 15 sptUsec () normal bots
+[2024-05-29T05:33:27.024Z] debug: 	Generated 5 bossTagilla () normal bots
+[2024-05-29T05:33:35.611Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:33:36.229Z] info: 	[Client Request] 67.149.148.201 \singleplayer\scav\traitorscavhostile
+[2024-05-29T05:33:43.367Z] debug: 	Saved 1 profiles, took: 0.68ms
+[2024-05-29T05:33:51.619Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:34:03.408Z] debug: 	Saved 1 profiles, took: 0.70ms
+[2024-05-29T05:34:10.045Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:34:10.356Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:34:10.924Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:34:12.194Z] info: 	[Client Request] 67.149.148.201 \singleplayer\settings\bot\getBotBehaviours\
+[2024-05-29T05:34:16.299Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:34:16.436Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:34:22.201Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:34:23.439Z] debug: 	Saved 1 profiles, took: 6.35ms
+[2024-05-29T05:34:27.359Z] debug: 	[WS] Pinging player: 6656bd61000353901747196e
+[2024-05-29T05:34:27.359Z] debug: 	[WS] Socket lost, deleting handle
+[2024-05-29T05:34:42.327Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:34:43.482Z] debug: 	Saved 1 profiles, took: 0.78ms
+[2024-05-29T05:34:52.433Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:35:03.494Z] debug: 	Saved 1 profiles, took: 0.64ms
+[2024-05-29T05:35:10.313Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:35:16.287Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:35:16.317Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:35:16.432Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:35:17.245Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:35:22.247Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:35:22.605Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:35:23.547Z] debug: 	Saved 1 profiles, took: 11.00ms
+[2024-05-29T05:35:28.312Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:35:43.566Z] debug: 	Saved 1 profiles, took: 0.69ms
+[2024-05-29T05:35:52.776Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:35:55.336Z] info: 	[Client Request] 67.149.148.201 \client\game\bot\generate
+[2024-05-29T05:36:03.594Z] debug: 	Saved 1 profiles, took: 0.64ms
+[2024-05-29T05:36:16.285Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:36:16.421Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:36:22.935Z] info: 	[Client Request] 67.149.148.201 \fika\update\ping
+[2024-05-29T05:36:23.633Z] debug: 	Saved 1 profiles, took: 0.62ms
+[2024-05-29T05:36:43.675Z] debug: 	Saved 1 profiles, took: 6.44ms
+[2024-05-29T05:36:47.796Z] info: 	[Client Request] 67.149.148.201 \fika\raid\leave
+[2024-05-29T05:36:47.797Z] info: 	Coop session 6656bd61000353901747196e has ended: host-shutdown
+[2024-05-29T05:36:48.952Z] info: 	[Client Request] 67.149.148.201 \files\achievement\Standard_35_1.png
+[2024-05-29T05:36:49.026Z] info: 	[Client Request] 67.149.148.201 \raid\profile\save
+[2024-05-29T05:36:49.034Z] debug: 	Raid outcome: killed
+[2024-05-29T05:36:49.035Z] debug: 	Updated quests values: (AvailableForStart: 4 times)
+[2024-05-29T05:36:49.035Z] debug: 	Updated statusTimers values: (AvailableForStart: 4 times)
+[2024-05-29T05:36:50.661Z] info: 	[Client Request] 67.149.148.201 \client\match\offline\end
+[2024-05-29T05:36:51.112Z] info: 	[WS] Player: matt_03 (6656bd61000353901747196e) has connected
+[2024-05-29T05:36:51.862Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\list
+[2024-05-29T05:36:52.159Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\select
+[2024-05-29T05:36:52.263Z] info: 	[Client Request] 67.149.148.201 \client\profile\status
+[2024-05-29T05:36:52.367Z] info: 	[Client Request] 67.149.148.201 \client\quest\list
+[2024-05-29T05:36:52.477Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:36:52.585Z] info: 	[Client Request] 67.149.148.201 \client\achievement\statistic
+[2024-05-29T05:36:52.683Z] info: 	[Client Request] 67.149.148.201 \client\achievement\list
+[2024-05-29T05:37:03.934Z] debug: 	Saved 1 profiles, took: 8.23ms
+[2024-05-29T05:37:16.286Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:37:16.433Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:37:20.838Z] info: 	[Client Request] 67.149.148.201 \client\items
+[2024-05-29T05:37:23.759Z] debug: 	Saved 1 profiles, took: 6.68ms
+[2024-05-29T05:37:27.005Z] info: 	[Client Request] 67.149.148.201 \client\customization
+[2024-05-29T05:37:27.304Z] info: 	[Client Request] 67.149.148.201 \client\globals
+[2024-05-29T05:37:27.900Z] info: 	[Client Request] 67.149.148.201 \client\trading\api\traderSettings
+[2024-05-29T05:37:28.035Z] info: 	[Client Request] 67.149.148.201 \client\settings
+[2024-05-29T05:37:28.166Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\list
+[2024-05-29T05:37:28.383Z] info: 	[Client Request] 67.149.148.201 \client\game\profile\select
+[2024-05-29T05:37:28.490Z] info: 	[Client Request] 67.149.148.201 \client\profile\status
+[2024-05-29T05:37:28.607Z] info: 	[Client Request] 67.149.148.201 \client\weather
+[2024-05-29T05:37:28.693Z] info: 	[Client Request] 67.149.148.201 \client\locations
+[2024-05-29T05:37:28.693Z] debug: 	Map: base has no base json file, skipping generation
+[2024-05-29T05:37:29.841Z] info: 	[Client Request] 67.149.148.201 \client\handbook\templates
+[2024-05-29T05:37:31.473Z] info: 	[Client Request] 67.149.148.201 \client\hideout\areas
+[2024-05-29T05:37:31.661Z] info: 	[Client Request] 67.149.148.201 \client\hideout\qte\list
+[2024-05-29T05:37:31.775Z] info: 	[Client Request] 67.149.148.201 \client\hideout\settings
+[2024-05-29T05:37:31.897Z] info: 	[Client Request] 67.149.148.201 \client\hideout\production\recipes
+[2024-05-29T05:37:32.083Z] info: 	[Client Request] 67.149.148.201 \client\hideout\production\scavcase\recipes
+[2024-05-29T05:37:32.199Z] info: 	[Client Request] 67.149.148.201 \client\builds\list
+[2024-05-29T05:37:34.300Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.300Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T05:37:34.372Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.372Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T05:37:34.441Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.448Z] debug: 	[Aki.Core] 0
+[2024-05-29T05:37:34.518Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.518Z] debug: 	[Aki.Core] 1077896
+[2024-05-29T05:37:34.593Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.593Z] debug: 	[Aki.Core] 1498808
+[2024-05-29T05:37:34.663Z] info: 	[Client Request] 67.149.148.201 \singleplayer\log
+[2024-05-29T05:37:34.664Z] debug: 	[Aki.Core] 0
+[2024-05-29T05:37:35.880Z] info: 	[Client Request] 67.149.148.201 \client\notifier\channel\create
+[2024-05-29T05:37:35.953Z] info: 	[Client Request] 67.149.148.201 \client\profile\status
+[2024-05-29T05:37:35.954Z] info: 	[Client Request] 67.149.148.201 \client\trading\customization\storage
+[2024-05-29T05:37:36.095Z] info: 	[WS] Player: matt_03 (6656bd61000353901747196e) has connected
+[2024-05-29T05:37:36.214Z] info: 	[Client Request] 67.149.148.201 \client\server\list
+[2024-05-29T05:37:36.215Z] info: 	[Client Request] 67.149.148.201 \client\match\group\current
+[2024-05-29T05:37:36.216Z] info: 	[Client Request] 67.149.148.201 \client\mail\dialog\list
+[2024-05-29T05:37:36.286Z] info: 	[Client Request] 67.149.148.201 \client\friend\list
+[2024-05-29T05:37:36.287Z] info: 	[Client Request] 67.149.148.201 \client\friend\request\list\inbox
+[2024-05-29T05:37:36.300Z] info: 	[Client Request] 67.149.148.201 \client\friend\request\list\outbox
+[2024-05-29T05:37:36.300Z] info: 	[Client Request] 67.149.148.201 \client\quest\list
+[2024-05-29T05:37:36.409Z] info: 	[Client Request] 67.149.148.201 \client\repeatalbeQuests\activityPeriods
+[2024-05-29T05:37:36.516Z] info: 	[Client Request] 67.149.148.201 \client\achievement\statistic
+[2024-05-29T05:37:36.628Z] info: 	[Client Request] 67.149.148.201 \client\achievement\list
+[2024-05-29T05:37:43.790Z] debug: 	Saved 1 profiles, took: 6.55ms
+[2024-05-29T05:37:49.990Z] info: 	[Client Request] 67.149.148.201 \client\match\group\invite\send
+[2024-05-29T05:37:51.539Z] info: 	[Client Request] 67.149.148.201 \client\match\group\invite\send
+[2024-05-29T05:37:56.781Z] info: 	[Client Request] 67.149.148.201 \client\match\group\leave
+[2024-05-29T05:37:56.901Z] info: 	[Client Request] 67.149.148.201 \client\game\logout
+[2024-05-29T05:37:56.907Z] debug: 	Saved 1 profiles, took: 6.38ms
+[2024-05-29T05:37:59.291Z] info: 	[Client Request] 67.149.148.201 \launcher\profile\info
+[2024-05-29T05:37:59.432Z] info: 	[Client Request] 67.149.148.201 \launcher\server\version
+[2024-05-29T05:38:03.950Z] debug: 	Saved 1 profiles, took: 1.19ms
+[2024-05-29T05:38:23.869Z] debug: 	Saved 1 profiles, took: 7.13ms
+[2024-05-29T05:38:43.911Z] debug: 	Saved 1 profiles, took: 7.66ms

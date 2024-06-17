@@ -11,6 +11,10 @@
 
   <ItemGroup>
     <PackageReference Include="ClickableTransparentOverlay" Version="9.1.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="Rebex.Sftp" Version="7.0.8865" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.6" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
   </ItemGroup>
 
 </Project>

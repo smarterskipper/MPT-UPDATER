@@ -52,6 +52,22 @@
             "ClickableTransparentOverlay": {
               "target": "Package",
               "version": "[9.1.0, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Rebex.Sftp": {
+              "target": "Package",
+              "version": "[7.0.8865, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [

@@ -1,0 +1,16 @@
+{
+  "FirstRun": false,
+  "DefaultLocale": "English",
+  "LauncherStartGameAction": 0,
+  "UseAutoLogin": true,
+  "GamePath": "D:\\MPT-Skipper-main",
+  "ExcludeFromCleanup": [],
+  "Server": {
+    "AutoLoginCreds": {
+      "Username": "Skipper",
+      "Password": "boston"
+    },
+    "Name": "SKIPPERS SERVER",
+    "Url": "http://127.0.0.1:6969"
+  }
+}

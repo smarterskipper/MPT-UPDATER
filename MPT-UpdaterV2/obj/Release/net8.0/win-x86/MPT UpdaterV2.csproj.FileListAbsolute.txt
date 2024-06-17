@@ -197,7 +197,6 @@ C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\ref\MPT UpdaterV2.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\ClickableTransparentOverlay.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\ImGui.NET.dll
-C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Newtonsoft.Json.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SharpGen.Runtime.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SharpGen.Runtime.COM.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\SixLabors.ImageSharp.dll
@@ -208,3 +207,14 @@ C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Vortice.Mathematics.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\cimgui.dll
 C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\obj\Release\net8.0\win-x86\MPT UpdaterV2.csproj.AssemblyReference.cache
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Rebex.Common.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Rebex.Networking.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Rebex.Sftp.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.Asio.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.Core.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.Midi.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.Wasapi.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\NAudio.WinMM.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\Microsoft.Win32.SystemEvents.dll
+C:\Users\bosto\Documents\csharp\my csharp projects\MPT UpdaterV2\bin\Release\net8.0\win-x86\System.Drawing.Common.dll

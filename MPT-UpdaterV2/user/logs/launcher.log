@@ -1,0 +1,20 @@
+[2024-06-09 10:18:06] ==== Launcher Started ====
+[2024-06-09 10:18:06][Info] Using launcher config at: D:\MPT-Skipper-main\user\launcher\config.json
+[2024-06-09 10:18:07][Info] Connected to server: http://127.0.0.1:6969 - Aki Version: 3.8.3
+[2024-06-09 10:18:10][Info] >>> Launching Game
+[2024-06-09 10:18:10][Info] >>> Account: Skipper
+[2024-06-09 10:18:10][Info] >>> Server : http://127.0.0.1:6969
+[2024-06-09 10:18:10][Info] [LaunchGame] Installed in Live :: NO
+[2024-06-09 10:18:10][Info] [LaunchGame] Setup Game Files ...
+[2024-06-09 10:18:10][Info] Recursive Removal: D:\MPT-Skipper-main\Logs
+[2024-06-09 10:18:10][Info] Recursive Removal: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197 application.log
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197 errors.log
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197 notifications.log
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197 spatial-audio.log
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197 traces.log
+[2024-06-09 10:18:10][Debug]   -> del file: D:\MPT-Skipper-main\Logs\log_2024.06.08_16-13-12_0.14.1.2.29197\2024.06.08_16-13-12_0.14.1.2.29197_backend.log
+[2024-06-09 10:18:10][Info] [LaunchGame] Game Validation   :: OK
+[2024-06-09 10:18:10][Info] [LaunchGame] Valid Game Path   :: OK
+[2024-06-09 10:18:10][Info] [LaunchGame] Applying Patch    :: OK
+[2024-06-09 10:18:10][Info] [LaunchGame] Game process started
