@@ -8,20 +8,21 @@ using System.Numerics;
 using System.Diagnostics;
 using System.IO;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MPTUPDATERV2Renderer
 {
     public class FileAction
     {
         public string FolderPath { get; }
-        public bool Keep { get; set; }
-        public bool Remove { get; set; }
+        public bool KeepLocalVersion { get; set; }
+        public bool UpdateToNew { get; set; }
 
         public FileAction(string folderPath)
         {
             FolderPath = folderPath;
-            Keep = false;
-            Remove = false;
+            KeepLocalVersion = false;
+            UpdateToNew = false;
         }
     }
 
@@ -67,7 +68,7 @@ namespace MPTUPDATERV2Renderer
         public static string saveMessage = "SFTP Data Saved!";
         public static string updateMessage = " ";
         private static bool showOutputWindow = true;
-        public static bool showFileManagemntWindow = true;
+        public static bool showFileManagementWindow = true;
         public static string outputMessage = string.Empty;
         public static string outputMessage2 = string.Empty;
         public static List<string> outputMessageList = new List<string>();
@@ -79,6 +80,7 @@ namespace MPTUPDATERV2Renderer
         public Renderer()
         {
             ButtonClickHandler.SyncButtonClicked += OnSyncButtonClicked;
+            Console.WriteLine("Renderer initialized.");
         }
 
         private async void OnSyncButtonClicked(object sender, SyncButtonEventArgs e)
@@ -91,9 +93,50 @@ namespace MPTUPDATERV2Renderer
             try
             {
                 SftpSyncManager sftpSyncManager = new SftpSyncManager(host, user, pass);
-                changedFiles = await sftpSyncManager.SyncDirectoriesAsync(folderActions);
-                // Update the list of changed files
+                var (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal) = await sftpSyncManager.CollectFilesToBeChangedAsync();
+
+                // Populate folderActions with the files to be changed, ensuring no duplicates
+                folderActions.Clear();
+                HashSet<string> seenPaths = new HashSet<string>();
+
+                foreach (var file in filesWithDifferentSizes)
+                {
+                    if (seenPaths.Add(file.Path))
+                    {
+                        folderActions.Add(new FileAction(file.Path));
+                    }
+                }
+
+                // Render the checkboxes and wait for user input
+                showOutputWindow = true;
+
+                // Wait for user interaction (you might need to implement a proper waiting mechanism or user prompt here)
+                // Example: using a simple message loop or a more sophisticated approach
+                while (showOutputWindow)
+                {
+                    await Task.Delay(100);
+                }
+
+                // After user input, proceed with the sync process
+                await SyncFilesAsync(sftpSyncManager, folderActions);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred: " + ex.Message);
+                updateMessage = "An error occurred: " + ex.Message;
+                showOutputWindow = true;
+            }
+        }
+
+        private async Task SyncFilesAsync(SftpSyncManager sftpSyncManager, List<FileAction> folderActions)
+        {
+            try
+            {
+                List<string> changedFiles = await sftpSyncManager.SyncDirectoriesAsync(folderActions);
                 outputMessageList = changedFiles;
+
+                // Update UI to show completion message
+                updateMessage = "Sync Completed!";
             }
             catch (Exception ex)
             {
@@ -103,19 +146,17 @@ namespace MPTUPDATERV2Renderer
         }
 
         private Vector2 _windowSize = new Vector2(800, 400);
+        private Vector2 _windowSize1 = new Vector2(800, 1000);
 
         protected override void Render()
         {
-            // Calculate window positions to center them and avoid overlap
+            // Console.WriteLine("Render method called."); // Comment out this line to prevent spamming
+
             float windowWidth = 800; // Adjust as needed
             float windowHeight = 400; // Adjust as needed
             Vector2 window1Pos = new Vector2((ImGui.GetIO().DisplaySize.X - 2 * windowWidth) * 0.5f, (ImGui.GetIO().DisplaySize.Y - windowHeight) * 0.5f);
             Vector2 window2Pos = new Vector2(window1Pos.X + windowWidth, window1Pos.Y);
-            
 
-            
-
-            
             ImGui.SetNextWindowPos(window1Pos, ImGuiCond.Appearing);
             ImGui.SetNextWindowSize(_windowSize, ImGuiCond.Appearing);
             ImGui.Begin("MPT Updater");
@@ -189,7 +230,7 @@ namespace MPTUPDATERV2Renderer
                     ImGui.Separator();
                     ImGui.Text("Update - After Setting SFTP Info.");
 
-                    if (ImGui.Button("Update"))
+                    if (ImGui.Button("Check For Updates"))
                     {
                         ButtonClickHandler.OnSyncButtonClicked(this, new SyncButtonEventArgs(host, user, pass, new List<string>()));
                     }
@@ -226,16 +267,62 @@ namespace MPTUPDATERV2Renderer
                     if (showOutputWindow)
                     {
                         ImGui.SetNextWindowPos(window2Pos, ImGuiCond.Appearing);
-                        ImGui.SetNextWindowSize(_windowSize, ImGuiCond.Appearing);
+                        ImGui.SetNextWindowSize(_windowSize1, ImGuiCond.Appearing);
                         ImGui.Begin("Output Window", ref showOutputWindow);
                         ImGui.Text(updateMessage);
                         ImGui.Text(outputMessage);
                         ImGui.ProgressBar(Progress, new Vector2(585, 5), " ");
                         ImGui.Text("Made By WiserSkipper");
                         ImGui.NewLine();
-                        foreach (var item in outputMessageList)
+                        foreach (var fileAction in folderActions)
                         {
-                            ImGui.Text(item);
+                            ImGui.Text(fileAction.FolderPath);
+
+                            // Use local variables to hold the checkbox values
+                            bool keepLocalVersion = fileAction.KeepLocalVersion;
+                            bool updateToNew = fileAction.UpdateToNew;
+
+                            ImGui.SameLine();
+                            if (ImGui.Checkbox($"Keep Local Version##{fileAction.FolderPath}", ref keepLocalVersion))
+                            {
+                                if (keepLocalVersion)
+                                {
+                                    fileAction.UpdateToNew = false; // Ensure mutual exclusivity
+                                }
+                            }
+
+                            ImGui.SameLine();
+                            if (ImGui.Checkbox($"Update To Remote Version##{fileAction.FolderPath}", ref updateToNew))
+                            {
+                                if (updateToNew)
+                                {
+                                    fileAction.KeepLocalVersion = false; // Ensure mutual exclusivity
+                                }
+                            }
+
+                            // Log changes only
+                            if (fileAction.KeepLocalVersion != keepLocalVersion || fileAction.UpdateToNew != updateToNew)
+                            {
+                                Console.WriteLine($"FileAction changed: {fileAction.FolderPath}, Keep Local Version: {keepLocalVersion}, Update to New: {updateToNew}");
+                            }
+
+                            // Assign the modified values back to the FileAction object
+                            fileAction.KeepLocalVersion = keepLocalVersion;
+                            fileAction.UpdateToNew = updateToNew;
+
+                            // Display the associated message
+                            foreach (var message in outputMessageList)
+                            {
+                                ImGui.Text(message);
+                            }
+                        }
+                        ImGui.Separator();
+
+                        // Add a button to proceed with the sync
+                        if (ImGui.Button("Continue"))
+                        {
+                            // Proceed with the sync without closing the output window
+                            Task.Run(() => SyncFilesAsync(new SftpSyncManager(host, user, pass), folderActions));
                         }
 
                         ImGui.End();
