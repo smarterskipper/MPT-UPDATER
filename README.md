@@ -1,48 +1,70 @@
-# MPT Updater
-![image](https://github.com/smarterskipper/MPT-UPDATER/assets/100497831/af1232bf-be7c-4fba-9095-26d2e27f1212)
+# MPT-UpdaterV2 🚀
 
-MPTUpdater is a console application designed to update the Mods, Plugins, and Configurations of the MPT client from a specified GitHub repository. It automates the process of cloning the repository, deleting old files, and copying the new ones into place.
+MPT-UpdaterV2 is a powerful tool designed to keep your MPT mods up to date with ease. This README will guide you through the setup and installation process, as well as highlight some of the key features of this updater.
 
-## Features
+## Table of Contents 📚
+- [Features ✨](#features-✨)
+- [Setup Guide 🛠️](#setup-guide-️)
+  - [For Server Owners 🖥️](#for-server-owners-️)
+    - [1. Setup Rebex Tiny SFTP Server 🔧](#1-setup-rebex-tiny-sftp-server-)
+    - [2. Obtain a Rebex Trial Key 🔑](#2-obtain-a-rebex-trial-key-)
+  - [For Users 👥](#for-users-)
+    - [1. Install MPT-UpdaterV2 📦](#1-install-mpt-updaterv2-)
+    - [2. Configure the Updater ⚙️](#2-configure-the-updater-)
+- [Automated Features 🤖](#automated-features-)
+- [License 📜](#license-)
 
-- Configurable GitHub repository URL
-- Progress bar to show the status of the update
-- Automatic deletion of old mods, plugins, and config files
-- Cloning and copying of files from the repository
+## Features ✨
+- **Automatic Updates**: MPT-UpdaterV2 automatically checks for and downloads the latest versions of your mods.
+- **Selective Syncing**: Allows you to keep local versions or update to the latest remote versions based on your preference.
+- **Detailed Progress**: Provides detailed progress feedback during the update process.
+- **Error Handling**: Robust error handling to ensure smooth operation even when issues arise.
 
-## Getting Started
+## Setup Guide 🛠️
 
-### Giude on setting up github repo to work with your server 
-- [https://github.com/lukas-gust/mpt-updater-template/tree/main](https://github.com/lukas-gust/mpt-updater-template/tree/main)
-  
-### Installation
-- Drag MPT-Updater.exe into your user>mods Folder.
-- Setup Github Repo
-- Setup Gitnore file for exclusions and inclusions of files.
+### For Server Owners 🖥️
 
-### Running the Application
+#### 1. Setup Rebex Tiny SFTP Server 🔧
+Rebex Tiny SFTP Server is a free SFTP server that is perfect for setting up a local SFTP server for testing and development purposes.
 
-1. Ensure the executable is placed in the Mods folder of your MPT client.
+1. **Download Rebex Tiny SFTP Server**: [Rebex Tiny SFTP Server](https://rebex.net/tiny-sftp-server/)
+2. **Install the Server**: Follow the instructions provided on the website to install the SFTP server on your local machine.
+3. **Configure the Server**: Set up the directories and users as needed to host the mod files.
 
-2. Run the application
+#### 2. Obtain a Rebex Trial Key 🔑
+To use Rebex libraries, you need a trial key.
 
-3. Follow the on-screen instructions to configure the GitHub repository URL or use a preset.
+1. **Request a Trial Key**: Visit the Rebex website to request a trial key: [Rebex Trial Key](https://rebex.net/support/trial-key/)
+2. **Apply the Key**: Follow the Rebex documentation to apply the trial key in your SFTP server configuration.
 
-## Usage
+### For Users 👥
 
-1. **Configure GitHub Repo URL**
-   - Select this option to set or change the GitHub repository URL.
+#### 1. Install MPT-UpdaterV2 📦
 
-2. **Update MPT Client**
-   - Select this option to start the update process. The application will delete the existing Mods, Plugins, and Config files and replace them with the ones from the specified repository.
+1. **Download the Latest Release**: Go to the [Releases](https://github.com/smarterskipper/MPT-UPDATER/releases) page and download the latest zip file of MPT-UpdaterV2.
+2. **Extract the Zip File**: Drag and drop the zip file into your MPT mods folder and extract all files directly into the mods folder.
 
-## Contributing
+#### 2. Configure the Updater ⚙️
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. **Open the Updater**: Launch the MPT-UpdaterV2 application.
+2. **Enter SFTP Server Information**:
+   - **Host**: Enter the host address provided by your server owner.
+   - **Port**: Default is 22 unless specified otherwise.
+   - **Username**: Enter your SFTP username.
+   - **Password**: Enter your SFTP password.
+   - **Rebex Key**: Enter the Rebex trial key provided by the server owner.
+3. **Save Configuration**: Click "Save All" to store your configuration settings.
+4. **Check for Updates**: Click "Check For Updates" to start the update process. Follow on-screen instructions to complete the update.
 
-## License
+## Automated Features 🤖
 
-This project is licensed under the MIT License.
+MPT-UpdaterV2 automates several tasks behind the scenes to ensure your mods are always up to date:
 
----
+- **Version Checking**: Automatically checks for the latest versions of your mods on the SFTP server.
+- **File Synchronization**: Compares local and remote files to determine what needs to be updated.
+- **Conflict Resolution**: Allows you to choose whether to keep local versions or update to new versions for conflicting files.
+- **Progress Tracking**: Tracks and displays the progress of the update process, giving you real-time feedback.
+- **Error Logging**: Logs any errors encountered during the update process to help with troubleshooting.
 
+## License 📜
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
