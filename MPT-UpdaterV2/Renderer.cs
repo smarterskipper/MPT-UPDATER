@@ -17,12 +17,14 @@ namespace MPTUPDATERV2Renderer
         public string FolderPath { get; }
         public bool KeepLocalVersion { get; set; }
         public bool UpdateToNew { get; set; }
+        public bool RemoveLocalVersion { get; set; }
 
         public FileAction(string folderPath)
         {
             FolderPath = folderPath;
             KeepLocalVersion = false;
             UpdateToNew = false;
+            RemoveLocalVersion = false;
         }
     }
 
@@ -68,6 +70,7 @@ namespace MPTUPDATERV2Renderer
         public static string saveMessage = "SFTP Data Saved!";
         public static string updateMessage = " ";
         private static bool showOutputWindow = true;
+        private static bool showOutputWindowBool = true;
         public static bool showFileManagementWindow = true;
         public static string outputMessage = string.Empty;
         public static string outputMessage2 = string.Empty;
@@ -76,6 +79,9 @@ namespace MPTUPDATERV2Renderer
         public static float Progress { get; set; }
 
         public static List<FileAction> folderActions = new List<FileAction>();
+
+        private bool isRetrievingFiles = false;
+        private List<string> filesToBeAdded = new List<string>();
 
         public Renderer()
         {
@@ -92,20 +98,30 @@ namespace MPTUPDATERV2Renderer
 
             try
             {
+                isRetrievingFiles = true;
                 SftpSyncManager sftpSyncManager = new SftpSyncManager(host, user, pass);
-                var (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal) = await sftpSyncManager.CollectFilesToBeChangedAsync();
+                var (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal, extraLocalFiles) = await sftpSyncManager.CollectFilesToBeChangedAsync();
 
                 // Populate folderActions with the files to be changed, ensuring no duplicates
                 folderActions.Clear();
-                HashSet<string> seenPaths = new HashSet<string>();
+                filesToBeAdded = filesOnlyInSftp;
 
                 foreach (var file in filesWithDifferentSizes)
                 {
-                    if (seenPaths.Add(file.Path))
-                    {
-                        folderActions.Add(new FileAction(file.Path));
-                    }
+                    folderActions.Add(new FileAction(file.Path));
                 }
+
+                foreach (var file in filesOnlyInLocal)
+                {
+                    folderActions.Add(new FileAction(file) { RemoveLocalVersion = true });
+                }
+
+                foreach (var file in extraLocalFiles)
+                {
+                    folderActions.Add(new FileAction(file.Path) { RemoveLocalVersion = true });
+                }
+
+                isRetrievingFiles = false;
 
                 // Render the checkboxes and wait for user input
                 showOutputWindow = true;
@@ -264,65 +280,95 @@ namespace MPTUPDATERV2Renderer
                     }
                     ImGui.Separator();
 
-                    if (showOutputWindow)
+                    if (showOutputWindowBool)
                     {
                         ImGui.SetNextWindowPos(window2Pos, ImGuiCond.Appearing);
                         ImGui.SetNextWindowSize(_windowSize1, ImGuiCond.Appearing);
                         ImGui.Begin("Output Window", ref showOutputWindow);
-                        ImGui.Text(updateMessage);
-                        ImGui.Text(outputMessage);
-                        ImGui.ProgressBar(Progress, new Vector2(585, 5), " ");
-                        ImGui.Text("Made By WiserSkipper");
-                        ImGui.NewLine();
-                        foreach (var fileAction in folderActions)
+
+                        if (isRetrievingFiles)
                         {
-                            ImGui.Text(fileAction.FolderPath);
-
-                            // Use local variables to hold the checkbox values
-                            bool keepLocalVersion = fileAction.KeepLocalVersion;
-                            bool updateToNew = fileAction.UpdateToNew;
-
-                            ImGui.SameLine();
-                            if (ImGui.Checkbox($"Keep Local Version##{fileAction.FolderPath}", ref keepLocalVersion))
-                            {
-                                if (keepLocalVersion)
-                                {
-                                    fileAction.UpdateToNew = false; // Ensure mutual exclusivity
-                                }
-                            }
-
-                            ImGui.SameLine();
-                            if (ImGui.Checkbox($"Update To Remote Version##{fileAction.FolderPath}", ref updateToNew))
-                            {
-                                if (updateToNew)
-                                {
-                                    fileAction.KeepLocalVersion = false; // Ensure mutual exclusivity
-                                }
-                            }
-
-                            // Log changes only
-                            if (fileAction.KeepLocalVersion != keepLocalVersion || fileAction.UpdateToNew != updateToNew)
-                            {
-                                Console.WriteLine($"FileAction changed: {fileAction.FolderPath}, Keep Local Version: {keepLocalVersion}, Update to New: {updateToNew}");
-                            }
-
-                            // Assign the modified values back to the FileAction object
-                            fileAction.KeepLocalVersion = keepLocalVersion;
-                            fileAction.UpdateToNew = updateToNew;
-
-                            // Display the associated message
-                            foreach (var message in outputMessageList)
-                            {
-                                ImGui.Text(message);
-                            }
+                            ImGui.Text("Retrieving files...");
                         }
-                        ImGui.Separator();
-
-                        // Add a button to proceed with the sync
-                        if (ImGui.Button("Continue"))
+                        else
                         {
-                            // Proceed with the sync without closing the output window
-                            Task.Run(() => SyncFilesAsync(new SftpSyncManager(host, user, pass), folderActions));
+                            ImGui.Text(updateMessage);
+                            ImGui.Text(outputMessage);
+                            ImGui.ProgressBar(Progress, new Vector2(585, 5), " ");
+                            ImGui.Text("Made By WiserSkipper");
+                            ImGui.NewLine();
+
+                            ImGui.Text($"Total files to be added: {filesToBeAdded.Count}");
+                            ImGui.Text($"Total files to be removed: {folderActions.Count(fa => fa.RemoveLocalVersion)}");
+                            ImGui.Text($"Total files to be updated to newer versions: {folderActions.Count(fa => !fa.RemoveLocalVersion && !filesToBeAdded.Contains(fa.FolderPath))}");
+
+                            ImGui.Separator();
+
+                            ImGui.Text("Files to be removed:");
+                            foreach (var fileAction in folderActions.Where(fa => fa.RemoveLocalVersion))
+                            {
+                                ImGui.Text(fileAction.FolderPath);
+
+                                bool removeLocalVersion = fileAction.RemoveLocalVersion;
+                                ImGui.SameLine();
+                                if (ImGui.Checkbox($"Remove Local Version##{fileAction.FolderPath}", ref removeLocalVersion))
+                                {
+                                    fileAction.RemoveLocalVersion = removeLocalVersion;
+                                }
+                            }
+
+                            ImGui.Separator();
+
+                            ImGui.Text("Files to be updated to newer versions:");
+                            foreach (var fileAction in folderActions.Where(fa => !fa.RemoveLocalVersion && !filesToBeAdded.Contains(fa.FolderPath)))
+                            {
+                                ImGui.Text(fileAction.FolderPath);
+
+                                // Use local variables to hold the checkbox values
+                                bool keepLocalVersion = fileAction.KeepLocalVersion;
+                                bool updateToNew = fileAction.UpdateToNew;
+
+                                ImGui.SameLine();
+                                if (ImGui.Checkbox($"Keep Local Version##{fileAction.FolderPath}", ref keepLocalVersion))
+                                {
+                                    if (keepLocalVersion)
+                                    {
+                                        fileAction.UpdateToNew = false; // Ensure mutual exclusivity
+                                    }
+                                    fileAction.KeepLocalVersion = keepLocalVersion;
+                                }
+
+                                ImGui.SameLine();
+                                if (ImGui.Checkbox($"Update To Remote Version##{fileAction.FolderPath}", ref updateToNew))
+                                {
+                                    if (updateToNew)
+                                    {
+                                        fileAction.KeepLocalVersion = false; // Ensure mutual exclusivity
+                                    }
+                                    fileAction.UpdateToNew = updateToNew;
+                                }
+                            }
+
+                            ImGui.Separator();
+
+                            if (folderActions.Any() || filesToBeAdded.Any())
+                            {
+                                if (ImGui.Button("Update All To New Version"))
+                                {
+                                    foreach (var fileAction in folderActions)
+                                    {
+                                        fileAction.UpdateToNew = true;
+                                        fileAction.KeepLocalVersion = false;
+                                    }
+                                }
+
+                                ImGui.SameLine();
+
+                                if (ImGui.Button("Continue"))
+                                {
+                                    showOutputWindow = false;
+                                }
+                            }
                         }
 
                         ImGui.End();

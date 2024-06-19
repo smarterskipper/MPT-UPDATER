@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\sftpfileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:sftpfileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\sftpfileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:sftpfileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\mpt updaterv2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:mpt updaterv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|c:\\users\\bosto\\documents\\csharp\\my csharp projects\\mpt updaterv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B95CE0D-E439-4580-A663-7ED3F6CF4D00}|MPT UpdaterV2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\SaveData.cs",
               "RelativeDocumentMoniker": "SaveData.cs",
@@ -46,11 +46,12 @@
               "RelativeToolTip": "SaveData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T01:29:51.611Z"
+              "WhenOpened": "2024-06-18T01:29:51.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -70,7 +71,8 @@
               "RelativeToolTip": "MPT UpdaterV2.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-17T20:07:55.908Z"
+              "WhenOpened": "2024-06-17T20:07:55.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,29 +83,31 @@
               "ToolTip": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\MPT UpdaterV2.csproj",
               "RelativeToolTip": "MPT UpdaterV2.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-17T21:01:40.586Z"
+              "WhenOpened": "2024-06-17T21:01:40.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Renderer.cs",
               "DocumentMoniker": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\Renderer.cs",
               "RelativeDocumentMoniker": "Renderer.cs",
               "ToolTip": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\Renderer.cs",
               "RelativeToolTip": "Renderer.cs",
-              "ViewState": "AQIAAPIAAAAAAAAAAAAYwAwBAABQAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwEgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:50:57.023Z"
+              "WhenOpened": "2024-06-17T19:50:57.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SftpFileInfo.cs",
               "DocumentMoniker": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\SftpFileInfo.cs",
               "RelativeDocumentMoniker": "SftpFileInfo.cs",
               "ToolTip": "C:\\Users\\bosto\\Documents\\csharp\\my csharp projects\\MPT UpdaterV2\\SftpFileInfo.cs",
               "RelativeToolTip": "SftpFileInfo.cs",
-              "ViewState": "AQIAAPgAAAAAAAAAAAAYwCcBAABUAAAA",
+              "ViewState": "AQIAABsBAAAAAAAAAAAuwG4BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T19:45:32.133Z",
               "EditorCaption": ""

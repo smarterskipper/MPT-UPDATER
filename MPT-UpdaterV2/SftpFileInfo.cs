@@ -28,14 +28,14 @@ namespace MPTUPDATERV2SftpConnect
             Renderer.updateMessage = message;
         }
 
-        private void Connect()
+        public void Connect()
         {
             Rebex.Licensing.Key = Renderer.key;
             sftp.Connect(host);
             sftp.Login(username, password);
         }
 
-        private void Disconnect()
+        public void Disconnect()
         {
             sftp.Disconnect();
         }
@@ -52,6 +52,35 @@ namespace MPTUPDATERV2SftpConnect
                 Renderer.outputMessage = "Get Root Directory Error! - " + ex.Message;
                 return null;
             }
+        }
+
+        public List<string> GetSftpFilePaths(string remotePath)
+        {
+            var fileList = new List<string>();
+
+            try
+            {
+                SftpItemCollection items = sftp.GetList(remotePath);
+                foreach (SftpItem item in items)
+                {
+                    string fullPath = Path.Combine(remotePath, item.Name).Replace("\\", "/");
+                    if (item.IsFile)
+                    {
+                        fileList.Add(fullPath);
+                    }
+                    else if (item.IsDirectory)
+                    {
+                        fileList.Add(fullPath + "/");
+                        fileList.AddRange(GetSftpFilePaths(fullPath)); // Recursively fetch files in subdirectories
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Renderer.outputMessage = "Get Sftp File Error! - " + ex.Message;
+            }
+
+            return fileList;
         }
 
         public List<(string Path, long Size)> GetSftpFiles(string remotePath)
@@ -96,7 +125,12 @@ namespace MPTUPDATERV2SftpConnect
                     {
                         var fileInfo = new FileInfo(file);
                         string normalizedPath = "/" + file.Replace(GlobalVariables.LocalRootdir, "").Replace(Path.DirectorySeparatorChar, '/');
-                        files.Add((normalizedPath, fileInfo.Length));
+
+                        // Skip files in any folder named "MPT-Updater"
+                        if (!normalizedPath.Contains("/MPT-Updater/"))
+                        {
+                            files.Add((normalizedPath, fileInfo.Length));
+                        }
                     }
                 }
                 else
@@ -111,25 +145,25 @@ namespace MPTUPDATERV2SftpConnect
             return files;
         }
 
-        public (List<(string Path, long Size)> FilesOnlyInSftp, List<(string Path, long Size)> FilesWithDifferentSizes, List<(string Path, long Size)> FilesOnlyInLocal, Dictionary<string, string> FileMessages) CompareFiles(List<(string Path, long Size)> sftpFiles, List<(string Path, long Size)> localFiles)
+        public (List<string> FilesOnlyInSftp, List<(string Path, long Size)> FilesWithDifferentSizes, List<string> FilesOnlyInLocal, Dictionary<string, string> FileMessages) CompareFiles(List<string> sftpFilePaths, List<(string Path, long Size)> sftpFiles, List<(string Path, long Size)> localFiles)
         {
-            // Normalize paths for comparison
-            var normalizedSftpFiles = sftpFiles.Select(f => (Path: f.Path.Trim().ToLowerInvariant(), f.Size)).ToList();
-            var normalizedLocalFiles = localFiles.Select(f => (Path: f.Path.Trim().ToLowerInvariant(), f.Size)).ToList();
+            var sftpDirectories = sftpFiles.Where(f => f.Path.EndsWith("/")).Select(f => f.Path).ToList();
+            var localDirectories = localFiles.Where(f => f.Path.EndsWith("/")).Select(f => f.Path).ToList();
 
-            // Separate directories and files
-            var sftpDirectories = normalizedSftpFiles.Where(f => f.Path.EndsWith("/")).ToList();
-            var localDirectories = normalizedLocalFiles.Where(f => f.Path.EndsWith("/")).ToList();
-            var sftpFilesOnly = normalizedSftpFiles.Except(sftpDirectories).ToList();
-            var localFilesOnly = normalizedLocalFiles.Except(localDirectories).ToList();
+            var filesOnlyInSftp = sftpFilePaths
+                .Where(sf => !localFiles.Any(lf => lf.Path == sf))
+                .ToList();
+            var filesOnlyInLocal = localFiles
+                .Where(lf => !sftpFilePaths.Contains(lf.Path))
+                .Select(lf => lf.Path)
+                .Where(path => path.StartsWith("/BepInEx/plugins/") || path.StartsWith("/BepInEx/config/") || path.StartsWith("/user/mods/") || path.StartsWith("/user/cache/"))
+                .ToList();
 
-            // Files that exist only in SFTP
-            var filesOnlyInSftp = sftpFilesOnly.Where(sf => !localFilesOnly.Any(lf => lf.Path == sf.Path)).ToList();
-            // Files that exist only in Local
-            var filesOnlyInLocal = localFilesOnly.Where(lf => !sftpFilesOnly.Any(sf => sf.Path == lf.Path)).ToList();
-            // Files with different sizes
-            var filesWithDifferentSizes = sftpFilesOnly
-                .Join(localFilesOnly, sf => sf.Path, lf => lf.Path, (sf, lf) => new { sf.Path, sf.Size, LocalSize = lf.Size })
+            filesOnlyInSftp.RemoveAll(f => sftpDirectories.Contains(f));
+            filesOnlyInLocal.RemoveAll(f => localDirectories.Contains(f));
+
+            var filesWithDifferentSizes = sftpFiles
+                .Join(localFiles, sf => sf.Path, lf => lf.Path, (sf, lf) => new { sf.Path, sf.Size, LocalSize = lf.Size })
                 .Where(f => f.Size != f.LocalSize)
                 .Select(f => (f.Path, f.Size))
                 .ToList();
@@ -142,46 +176,20 @@ namespace MPTUPDATERV2SftpConnect
 
             foreach (var file in filesOnlyInSftp)
             {
-                fileMessages[file.Path] = "Exists only in the remote directory.";
+                fileMessages[file] = "Exists only in the remote directory.";
             }
 
             foreach (var file in filesOnlyInLocal)
             {
-                fileMessages[file.Path] = "Exists only in the local directory.";
-            }
-
-            // Debug output to verify the logic
-            Console.WriteLine("SFTP Files:");
-            foreach (var file in normalizedSftpFiles)
-            {
-                Console.WriteLine(file.Path);
-            }
-            Console.WriteLine("Local Files:");
-            foreach (var file in normalizedLocalFiles)
-            {
-                Console.WriteLine(file.Path);
-            }
-            Console.WriteLine("Files Only in SFTP:");
-            foreach (var file in filesOnlyInSftp)
-            {
-                Console.WriteLine(file.Path);
-            }
-            Console.WriteLine("Files Only in Local:");
-            foreach (var file in filesOnlyInLocal)
-            {
-                Console.WriteLine(file.Path);
-            }
-            Console.WriteLine("Files with Different Sizes:");
-            foreach (var file in filesWithDifferentSizes)
-            {
-                Console.WriteLine(file.Path);
+                fileMessages[file] = "Exists only in the local directory.";
             }
 
             return (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal, fileMessages);
         }
 
-        public async Task<(List<(string Path, long Size)> FilesOnlyInSftp, List<(string Path, long Size)> FilesWithDifferentSizes, List<(string Path, long Size)> FilesOnlyInLocal)> CollectFilesToBeChangedAsync()
+        public async Task<(List<string> FilesOnlyInSftp, List<(string Path, long Size)> FilesWithDifferentSizes, List<string> FilesOnlyInLocal, List<(string Path, long Size)> ExtraLocalFiles)> CollectFilesToBeChangedAsync()
         {
+            var sftpFilePaths = new List<string>();
             var sftpFiles = new List<(string Path, long Size)>();
             var localFiles = GetLocalFiles();
 
@@ -191,29 +199,36 @@ namespace MPTUPDATERV2SftpConnect
                 Connect();
 
                 var rootDirectory = GetRootDirectory();
+                sftpFilePaths = GetSftpFilePaths(rootDirectory);
                 sftpFiles = GetSftpFiles(rootDirectory);
                 UpdateMessage("Received SFTP File List!");
 
                 // Normalize file paths for comparison
+                sftpFilePaths = sftpFilePaths.Select(f => f.Replace("\\", "/")).ToList();
                 sftpFiles = sftpFiles.Select(f => (f.Path.Replace("\\", "/"), f.Size)).ToList();
                 localFiles = localFiles.Select(f => (f.Path.Replace("\\", "/"), f.Size)).ToList();
                 UpdateMessage("Normalized File Paths!");
 
-                var (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal, _) = CompareFiles(sftpFiles, localFiles);
+                var (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal, _) = CompareFiles(sftpFilePaths, sftpFiles, localFiles);
 
-                if (filesOnlyInSftp.Count == 0 && filesWithDifferentSizes.Count == 0)
+                var extraLocalFiles = localFiles
+                    .Where(lf => !sftpFilePaths.Contains(lf.Path) &&
+                                 (lf.Path.StartsWith("/user/mods/") || lf.Path.StartsWith("/BepInEx/plugins/") || lf.Path.StartsWith("/BepInEx/config/")))
+                    .ToList();
+
+                if (filesOnlyInSftp.Count == 0 && filesWithDifferentSizes.Count == 0 && extraLocalFiles.Count == 0)
                 {
                     UpdateMessage("No Update Found, Files Up To Date!");
-                    return (new List<(string Path, long Size)>(), new List<(string Path, long Size)>(), new List<(string Path, long Size)>());
+                    return (new List<string>(), new List<(string Path, long Size)>(), new List<string>(), new List<(string Path, long Size)>());
                 }
 
                 UpdateMessage("Replacement List Created!");
-                return (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal);
+                return (filesOnlyInSftp, filesWithDifferentSizes, filesOnlyInLocal, extraLocalFiles);
             }
             catch (Exception e)
             {
                 Renderer.outputMessage = "Collect Files To Be Changed Error! - " + e.Message;
-                return (new List<(string Path, long Size)>(), new List<(string Path, long Size)>(), new List<(string Path, long Size)>());
+                return (new List<string>(), new List<(string Path, long Size)>(), new List<string>(), new List<(string Path, long Size)>());
             }
             finally
             {
@@ -224,11 +239,12 @@ namespace MPTUPDATERV2SftpConnect
         public async Task<List<string>> SyncDirectoriesAsync(List<FileAction> folderActions)
         {
             var changedFiles = new List<string>();
-            var sftpFiles = new List<(string Path, long Size)>();
-            var localFiles = GetLocalFiles();
 
             try
             {
+                var sftpFiles = new List<(string Path, long Size)>();
+                var localFiles = GetLocalFiles();
+
                 UpdateMessage("Checking For Updates...");
                 Connect();
 
@@ -241,8 +257,7 @@ namespace MPTUPDATERV2SftpConnect
                 localFiles = localFiles.Select(f => (f.Path.Replace("\\", "/"), f.Size)).ToList();
                 UpdateMessage("Normalized File Paths!");
 
-                var (filesOnlyInSftp, filesWithDifferentSizes, _, fileMessages) = CompareFiles(sftpFiles, localFiles);
-
+                var (filesOnlyInSftp, filesWithDifferentSizes, _, fileMessages) = CompareFiles(sftpFiles.Select(f => f.Path).ToList(), sftpFiles, localFiles);
                 UpdateMessage("File comparison completed!");
 
                 float progressStep = 1.0f / (filesWithDifferentSizes.Count + filesOnlyInSftp.Count);
@@ -283,9 +298,9 @@ namespace MPTUPDATERV2SftpConnect
                 // Handle files only in SFTP (new files)
                 foreach (var file in filesOnlyInSftp)
                 {
-                    string localPath = Path.Combine(GlobalVariables.LocalRootdir, file.Path.Substring(1));
+                    string localPath = Path.Combine(GlobalVariables.LocalRootdir, file.Substring(1));
 
-                    if (file.Path.EndsWith("/"))
+                    if (file.EndsWith("/"))
                     {
                         // Create directory if it doesn't exist
                         Directory.CreateDirectory(localPath);
@@ -296,17 +311,36 @@ namespace MPTUPDATERV2SftpConnect
                         Directory.CreateDirectory(Path.GetDirectoryName(localPath));
                         using (var fileStream = new FileStream(localPath, FileMode.Create, FileAccess.Write, FileShare.None))
                         {
-                            await sftp.GetFileAsync(file.Path, fileStream); // Perform file download asynchronously
+                            await sftp.GetFileAsync(file, fileStream); // Perform file download asynchronously
                         }
 
                         changedFiles.Add(localPath); // Add the path to the list of changed files
                     }
 
-                    Renderer.outputMessageList.Add($"{file.Path}: Added (New file from remote).");
+                    Renderer.outputMessageList.Add($"{file}: Added (New file from remote).");
 
                     // Update progress
                     currentProgress += progressStep;
                     Renderer.Progress = currentProgress;
+                }
+
+                // Handle files only in local that should be removed
+                foreach (var fileAction in folderActions.Where(fa => fa.RemoveLocalVersion))
+                {
+                    string localPath = Path.Combine(GlobalVariables.LocalRootdir, fileAction.FolderPath.Substring(1));
+
+                    if (File.Exists(localPath))
+                    {
+                        File.Delete(localPath);
+                        Renderer.outputMessageList.Add($"{fileAction.FolderPath}: Removed (Only exists in local).");
+                        changedFiles.Add(localPath);
+                    }
+                    else if (Directory.Exists(localPath))
+                    {
+                        Directory.Delete(localPath, true);
+                        Renderer.outputMessageList.Add($"{fileAction.FolderPath}: Removed (Only exists in local).");
+                        changedFiles.Add(localPath);
+                    }
                 }
 
                 // Add detailed messages to the output
