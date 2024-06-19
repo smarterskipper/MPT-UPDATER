@@ -30,6 +30,8 @@ Rebex Tiny SFTP Server is a free SFTP server that is perfect for setting up a lo
 1. **Download Rebex Tiny SFTP Server**: [Rebex Tiny SFTP Server](https://rebex.net/tiny-sftp-server/)
 2. **Install the Server**: Follow the instructions provided on the website to install the SFTP server on your local machine.
 3. **Configure the Server**: Set up the directories and users as needed to host the mod files.
+4. YOUR REBEX DATA FOLDER SHOULD LOOK LIKE THIS!
+![Screenshot 2024-06-19 145233](https://github.com/smarterskipper/MPT-UPDATER/assets/100497831/22344352-d8c7-4eef-b8c5-09e29134c605)
 
 #### 2. Obtain a Rebex Trial Key 🔑
 To use Rebex libraries, you need a trial key.
